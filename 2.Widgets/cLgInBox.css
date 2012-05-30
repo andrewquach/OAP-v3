@@ -1,0 +1,49 @@
+/*----------------------------------------------------------------------------------------------------
+	2.Widgets/cLgInBox.css
+----------------------------------------------------------------------------------------------------*/
+/*
+div.cMsgBox
+{
+	position:				absolute;
+	background:				white;
+	border:					solid 1px silver;
+	z-index:10;
+	top:200px;
+	margin:0 auto;
+	padding:10px;
+}
+
+div.cMsgBox td.xIcon
+{
+	padding:				8;
+	vertical-align:			top;
+}
+
+div.cMsgBox td.xMessage
+{
+	padding:				4 8;
+}
+
+div.cMsgBox td.xButtons
+{
+	padding:				4 8; 
+	background:				#E0E0E0;
+	text-align:				right;
+}
+*/
+
+/* Login Box  */
+div.cLgInBox {margin:0 auto;width:520px; position:absolute; background:none;z-index: 10000;}
+div.cLgInBox .box{background:#fff url(login_bg.png) no-repeat right bottom;height:340px;}
+div.cLgInBox .inner{padding:5px 30px;}
+div.cLgInBox .signUp{bottom:-50px;left:0;position:relative;}
+div.cLgInBox .signUp a{background:none;}
+div.cLgInBox .signError{height:18px;color:#ff0000;font-size:11px;}
+div.cLgInBox h3{color:#fff;text-shadow:none;}
+div.cLgInBox h3 span{color:#333;}
+div.cLgInBox input[type=text],input[type=password],.cLgInBox textarea{font-family:sans-serif;width:250px;}
+div.cLgInBox input:hover{background-color:#ffc;border-color:#ea4500;}
+div.cLgInBox label{color:#666;display:inline-block;font-size:16px;font-weight:bold;padding:0 10px 0 0;text-align:right;}
+div.cLgInBox>.btnClose{font-family: "BebasRegular", Arial, sans-serif;color:#2f3850;position:relative;right:-500px;top:55px;z-index:9000;background-color:#fff;display:block;width:20px;height:20px;padding:5px;border:1px solid #d9d9d9;text-align:center;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+div.cLgInBox a{background-color:#fff;}
+div.cLgInBox>.btnClose:hover{color:#ea4500;}

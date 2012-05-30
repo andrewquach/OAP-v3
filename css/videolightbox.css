@@ -1,0 +1,26 @@
+#videogallery {
+	width:100%;
+	zoom:1;
+}
+#videogallery span{ display:block; }
+#videogallery a {color:#2f3850;text-shadow:#f2f2f2 0 1px 1px; }
+#videogallery a:hover {color:#ea4500}
+/*#videogallery a{
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	position:relative;
+	vertical-align:top;
+	text-decoration:none;
+	text-align:center;
+	opacity:0.87;
+}
+#videogallery a img{
+	display:block;
+	border:none;
+	margin:0;
+}
+#videogallery a:hover{
+	opacity:1;
+}*/

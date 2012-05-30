@@ -1,0 +1,137 @@
+<?php include 'header.html'; ?>   
+<!-- middle body -->
+<script type="text/javascript" language="javascript" src="Account/Account.js"></script>
+<script type="text/javascript" language="javascript" src="Account/cAboutMeList.js"></script>
+    
+<div class="middle" id="sidebar_right">
+<div class="container_12">
+
+<!-- Start Wrapper -->
+<div class="wrapper">
+<div class="content">
+
+<!-- Breadcrumbs -->
+<ul class="breadcrumbs">
+<li><a id="eMySummary3">My Summary</a></li>
+<li>My Accounts</li>
+</ul>
+<div class="ht20"></div>
+<!-- Breadcrumbs -->
+
+<!-- Start Manage Parent -->
+<!--
+<div class="manageParent">
+<div class="parentItem pBorder"><span><b>Name:</b>Parent's name</span><div class="parentTool"><a id="" data="" class="button_sml"><span>Edit</span></a></div><div class="clear"></div></div>
+<div class="parentItem pBorder"><span><b>Email:</b>parent@email.com</span><div class="parentTool"><a id="" data="" class="button_sml"><span>Edit</span></a></div><div class="clear"></div></div>
+<div class="parentItem pBorder"><span><b>Address:</b>Singapore</span><div class="parentTool"><a id="" data="" class="button_sml"><span>Edit</span></a></div><div class="clear"></div></div>
+<div class="parentItem"><span><b>Password:</b>xxxxxxxx</span><div class="parentTool"><a id="" data="" class="button_sml"><span>Edit</span></a></div><div class="clear"></div></div>
+</div>
+-->
+<!-- End Manage Parent -->
+
+
+				<table id='eAbout' width = '100%' cellspacing=10 cellpadding=10>
+                  <tr><td colspan=2>&nbsp;</td></tr>
+                  <tr>
+                  <!--
+                    <td align='center' width=120>
+                      <table>
+                        <tr><td><img id='ePic' width=100 src='../images/placeholder.png' /></td></tr>
+                        <tr><td align='center'><div id='eUpload' class='cLink cClickable'>Upload</div></td></tr>
+                        <tr><td align='center'>Please Upload only Jpeg, Png, or Gif</td></tr>
+                      </table>
+                    </td>-->
+                    <td align='left'>
+                      <table id='eListAboutMe' class='cTable' width='100%' cellspacing='0'>
+                        <tbody>
+                        </tbody>
+                        <tfoot>
+                          <tr class='cEven'>
+                            <td width=100 align='right'>&nbsp;&nbsp;<b>~Field</b></td>                  
+                            <td width=200 align=center>~Info</td>
+                            <td width=50 align=center>~Edit</td>                            
+                          </tr>
+                          <tr class='cOdd'>
+                            <td width=100 align='right'>&nbsp;&nbsp;<b>~Field</b></td>                  
+                            <td width=200 align=center>~Info</td>
+                            <td width=50 align=center>~Edit</td>                            
+                          </tr>
+                        </tfoot>
+                      </table>
+                    </td>
+                  </tr>
+
+                  <tr><td colspan=2>&nbsp;</td></tr>
+
+                  <tr><td colspan=2 align='right'><div id='eBar' style='display: none'><b>Profile Update</b></div></tbody></tr>
+                  <tr><td colspan=2>&nbsp;</td></tr>
+                  <tr><td colspan=2 align='center'>              
+                    <table id='nameTbl' style='display: none' cellspacing=5 cellpadding=5>
+                    <tr>
+                      <td align='right' id='firstname'>First Name:</td>
+                      <td><input id='eFirstNameBox' type='text'/></td>
+                    </tr> 
+                    <tr>
+                      <td align='right' id='surname'>Surname:</td>
+                      <td><input id='eLastNameBox' type='text'/></td>
+                    </tr>     
+                    <tr><td colspan=2 align='right'><a id='eOk' class='cLink cClickable' to='cAboutMe'>Ok</a> | <a id='eCancel' class='cLink cClickable' to='cAboutMe'>Cancel</a></td></tr>
+                    </table>
+                    <table id='passwordTbl' style='display: none' cellspacing=5 cellpadding=5> 
+                    <tr>
+                      <td align='right'>Password:</td>
+                      <td><input id='ePasswordBox' type='password'/></td>
+                    </tr> 
+                    <tr>
+                      <td align='right'>Confirm Password:</td>
+                      <td><input id='eConfirmPasswordBox' type='password'/></td>
+                    </tr>     
+                    <tr><td colspan=2 align='right'><a id='eOk' class='cLink cClickable' to='cAboutMe'>Ok</a> | <a id='eCancel' class='cLink cClickable' to='cAboutMe'>Cancel</a></td></tr>
+                    </table>
+                    <table id='addressTbl' style='display: none'>
+                    <tr>
+                      <td align='right'>Address:</td>
+                      <td>
+                      <input id='eAddressBox' type='text'/>
+                      </td>
+                    </tr> 
+                    <tr><td colspan=2 align='right'><a id='eOk' class='cLink cClickable' to='cAboutMe'>Ok</a> | <a id='eCancel' class='cLink cClickable' to='cAboutMe'>Cancel</a></td></tr>
+                    </table>
+                    <table id='emailTbl' style='display: none'>
+                    <tr>
+                      <td align='right'>Email:</td>
+                      <td><input id='eEmailBox' type='text'/></td>
+                    </tr> 
+                    <tr><td colspan=2 align='right'><a id='eOk' class='cLink cClickable' to='cAboutMe'>Ok</a> | <a id='eCancel' class='cLink cClickable' to='cAboutMe'>Cancel</a></td></tr>
+                    </table>                  
+                  </td></tr>
+
+                </table>
+</div>
+</div>
+<!-- End Wrapper -->
+
+<!-- Start Sidebar -->
+<div class="sidebar">
+<div class="inner">
+<h3 id="AccountName">Parent Tan's Account</h3>
+
+<div class="widget-container">
+<div class="sideBox">
+<h4 class="sideboxHeader text-right">Children' Accounts</h4>
+<ul id="eChildren" class="userSideBox">
+</ul>
+<hr class="divider2"></hr>
+<a id="eEditChildAccount" class="button_sml alignright"><span>Create / Edit</span></a>
+<div class="clear"></div>
+</div>
+</div>
+
+</div>
+</div>
+<!-- End Sidebar -->
+
+</div>	
+</div>
+<!--/ middle body -->
+<?php include 'footer.html'; ?>

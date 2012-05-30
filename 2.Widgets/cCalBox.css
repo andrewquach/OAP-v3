@@ -1,0 +1,33 @@
+/*----------------------------------------------------------------------------------------------------
+	2.Widget/cCalBox.css
+----------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------*/
+table.cCalBox
+{
+	position:				absolute;
+	background:				white;
+	color:					black;
+}
+
+table.cCalBox tr td.xHover
+{
+	background:				#C0FFC0;
+}
+
+table.cCalBox tr td.xSelected
+{
+	background:				#E0E0E0;
+}
+
+table.cCalBox tr td.xDisabled
+{
+	color:					#CCCCCC;
+}
+
+table.cCalBox tr td.xButtons
+{
+	padding:				4 8; 
+	background:				#E0E0E0;
+	text-align:				right;
+}

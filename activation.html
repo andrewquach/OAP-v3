@@ -1,0 +1,75 @@
+<?php include 'header.html'; ?>
+<script type="text/javascript" language="javascript" src="account/activation.js"></script>
+
+<!-- middle body -->
+<div class="middle">
+<div class="container_12">
+<div class="wrapper2">
+
+<!-- Breadcrumbs -->  
+<ul class="breadcrumbs">
+<li><a id="eStore3">Store</a></li>
+<li>Activation Form</li>
+</ul>
+<!-- Breadcrumbs -->
+<div class="ht30 clearfix"></div>
+
+			<div id='eTransact'>
+            	<form name="eFormActivation">
+            	<h3 class="groupHeader box">Activation Purchases</h3>
+            	<div class="registration border">
+            		<div class="ht10"></div>
+            		<label><span>*</span>Transactions</label><div id='eTransactsDiv' style="display:inline;width:250px;"></div>
+            		<div class="ht10"></div>
+					<label><span>*</span>Customer Username</label><input id="eCustUsername" type="text"/>
+					<div class="ht10"></div>
+					<label><span>*</span>Tick here if this is a new Customer</label><input id="eNewCustomer" type="checkbox" name="eNewCustomer"/>
+					<div class="ht10"></div>
+					<label><span>*</span>Receipt No.</label><input id="eReceipt" type="text"/>
+					<div class="ht10"></div>
+					<label><span>*</span>Receipt Amt (S$)</label><input id="eReceiptAmt" type="text"/>
+					<div class="ht10"></div>
+					<label><span>*</span>Sales Rep</label><div id='eActivatedBy' style="display:inline;width:250px"></div>
+					<div class="ht10"></div>
+					<div class="ifyou"><a id="eActivate" class="button_sml"><span>Activate</span></a></div>
+        		</div>
+        		<div class="clear"></div>
+        		</form>
+    		</div>
+
+
+
+<!--Start Register Box-->
+<form id="eFormRegistration" style="display:none">
+<h3 class="groupHeader box">Registration</h3>
+<div class="registration border">
+<!--<label></label><input name="title" type="radio" value="Dr">Dr<input name="title" type="radio" value="Mr">Mr<input name="title" type="radio" value="Mrs">Mrs<input name="title" type="radio" value="Ms">Ms-->
+<div class="ht10"></div>
+<label><span>*</span>First Name</label><input id="eParentFirst" type="text"/>
+<div class="ht10"></div>
+<label><span>*</span>Last Name</label><input id="eParentLast" type="text"/>
+<div class="ht10"></div>
+<label><span>*</span>Username</label><input id="eParentUserId" type="text"/>
+<div class="ht10"></div>
+<label><span>*</span>Password</label><input id="eParentPassword" type="password"/>
+<div class="ht10"></div>
+<label><span>*</span>Confirmed Password</label><input id="eParentConfirm" type="password"/>
+<div class="ht10"></div>
+<label><span>*</span>Email</label><input id="eParentEmail" type="text"/>
+<div class="ht10"></div>
+<div id="eOops" class="errorMsg"><span><div id="eErr"></div></span></div>
+<div class="ht10"></div>
+</div>
+<div class="ht10"></div>
+<div class="ifyou"><a id="eRegister" class="button_sml"><span>Create Account & Activate</span></a></div>
+<div class="clear"></div>
+</form>
+<!--End Register Box-->
+
+
+</div>
+	
+</div>
+</div>
+<!--/ middle body -->
+<?php include 'footer.html'; ?>

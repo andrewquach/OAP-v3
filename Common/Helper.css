@@ -1,0 +1,227 @@
+/*----------------------------------------------------------------------------------------------------
+  Common/Helper.css
+----------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------*/
+#eUserName {
+  color: #E75C32;
+  font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+.header {
+  font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+#eFlashDiv {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  /*margin-top: -180;
+  margin-left: -200;*/
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+#eBox {
+  border: 1px solid #cccccc;
+  padding: 0;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+.cBox {
+  border: 1px solid #cccccc;
+  padding: 1;  
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+#eSources,
+#eAbout,
+#eBar {
+  border: 1px solid #cccccc;
+  border-collapse: collapse;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+#eQuiz {
+  border: 1px solid #cccccc;
+  border-collapse: collapse;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+.note { 
+  margin-bottom: 0.4em;
+  border: solid #dddaaa; 
+  border-width: 1px 0; 
+  padding: .75em 15px;
+  /* background: #faf9e2; */
+  color: #5d5636; 
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+.cNoBullet {
+  list-style: none;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+.cClickable {
+  cursor: pointer;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+.cLink {
+  text-decoration: underline; 
+  color: #2554c7;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+.mandatory {
+  color: red;
+  font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+.cField {
+  font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+#eNavBar {
+  background: #dfdfdf;
+  padding: 8px 8px 5px 8px;
+  overflow: hidden;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  height: auto;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+#eTitleBar {
+  background: #dfdfdf;
+  padding: 8px 8px 5px 8px;
+  overflow: hidden;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  height: auto;
+  font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+.cTab {
+  display: inline;
+  margin: 0 5px;
+  padding: 6px 8px;
+  background-color: whiteSmoke;
+  border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  box-shadow: inset 0 1px white, 0 1px #a7a7a7;
+  -moz-box-shadow: inset 0 1px white, 0 1px #a7a7a7;
+  -webkit-box-shadow: inset 0 1px white, 0 1px #a7a7a7;  
+  width: auto;
+  height: 20px;
+  font-weight: bold;
+  color: #848484;
+  cursor:  pointer;
+  cursor: hand;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+.cCurrent {
+  background-image: url('../images/activeTab.gif');
+  background-color: #3a8fce;
+  border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border: 1px solid #2f6ea7;
+  border-color: #508fcd #4483bf #2f6ea7 #3f7eb9;
+  color: white;
+  width: auto;
+  height: 20px;
+  font-weight: bold;
+  padding: 6px 8px;
+  margin: 0 5px;
+  cursor: default;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+.cButton {
+  width: auto;
+  height: 20px;
+  background-image: url('../images/button.gif');
+  background-color: #c3dd82;
+  border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border: 1px solid #8cb332;
+  border-bottom: 1px solid #648517;
+  color: #406a24;
+  text-shadow: 0 1px #d4ed95;
+  font-weight: bold;
+  padding: 6px 8px;
+  margin: 0 5px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+#eBar {
+  background: #dfdfdf;
+  padding: 8px 8px 5px 8px;
+  overflow: hidden;
+  height: auto;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+.cBar {
+  background: #dfdfdf;
+  padding: 8px 8px 5px 8px;
+  overflow: hidden;
+  height: auto;
+  font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+.c3px {
+  height: 3px;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+.cSnugTbl {
+  border-collapse: collapse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

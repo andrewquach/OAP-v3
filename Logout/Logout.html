@@ -1,0 +1,89 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Logout | MC Enrich</title>
+	<link rel="stylesheet" type="text/css" href="../1.Core/cSys.css">
+	<link rel="stylesheet" type="text/css" href="../1.Core/cPage.css">
+	<link rel="stylesheet" type="text/css" href="../2.Widgets/cMsgBox.css">
+	<link rel="stylesheet" type="text/css" href="../2.Widgets/cMenu.css">
+	<script language="javascript" src="../1.Core/Utils.js"></script>
+	<script language="javascript" src="../1.Core/cSys.js"></script>
+	<script language="javascript" src="../1.Core/cTimer.js"></script>
+	<script language="javascript" src="../1.Core/cPage.js"></script>
+	<script language="javascript" src="../2.Widgets/cMsgBox.js"></script>
+	<script language="javascript" src="../2.Widgets/cMenu.js"></script>
+	<style>
+	</style>
+</head>
+<body>
+	<textarea id="xSave"></textarea><object id="xDbg" style="position: absolute; z-index: 1" width="4" height="4" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0"><param name="movie" value="../1.Core/dbg.swf"><param name="allowScriptAccess" value="sameDomain"><embed width="4" height="4" src="../1.Core/dbg.swf" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"/></object>
+	<div class="cPage">
+		<div id="eTop" class="xLayoutVFix"><div style="height: 32px">
+			<div id="eTopLogo"></div>
+		</div></div>
+		<div id="eMid" class="xLayoutVVar">
+			<div class="xLayoutHVar">
+				<div id="eMidMid" class="xLayoutVVar"><div style="overflow: auto">
+					<form id="eForm">
+						<table id="eSignIn" width="100%">
+							<tr><td align="center">
+							<table>
+								<tr><td align="center">
+								<table>
+									<tr><td>
+										<div id="eMessage">
+											You have logged out.</br>
+											Click <button id="eLogin">here</button> to go to homepage.
+										</div>
+									</td></tr>							
+								</table>
+								</td></tr>
+							</table>
+							</td></tr>
+						</table>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
+
+<script language="javascript">
+//----------------------------------------------------------------------------------------------------
+//	handle signal.
+//	return true to bubble signal to parent, false (default) to stop.
+//----------------------------------------------------------------------------------------------------
+cPage.fOnSignal = fExtend(cPage.fOnSignal,
+function(									//	(boolean) true if consumed
+	vThis,									//	(element) element processing signal
+	vTarget,								//	(element) original target for signal
+	vSignal,								//	(string) signal received
+	vData									//	(mixed) extra data along with signal
+)
+{
+	switch (vSignal)
+	{
+	case "Start":
+		cSys.fStartRequest(vThis, "LogoutDone", "Logout.php", "Logout", {}, "Logout...");
+		return false;
+
+	case "Logout":
+		return false;
+	
+	case "click":
+		switch (vTarget.id)
+		{
+		case "eLogin":
+			cSys.gAppVars = {};
+			cSys.fGoto("../index.html");
+			return false;
+		}
+		break;
+	}
+
+	return fSuper(arguments);
+}
+)
+</script>

@@ -1,0 +1,36 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;" />
+<title>EduPro</title>
+		<script type="text/javascript" language="JavaScript">
+			var sTitle = "Index";
+			var sFileVer = "20070424120000";
+			function fRequireLeadFE()
+			{
+				alert("You need to install the latest Lead Flash Player to run this program.\r\r Click 'OK' to go to the plugins page.")
+				window.open("http://schdnahost04.schooldna.com/Logon/LeadFlashPlayer.htm", "_self");
+			}
+		</script>
+		<script language="javascript" src="..\scripts\Scorm_lms.js"></script>
+		<script language="javascript" src="..\scripts\APIWrapper.js"></script>
+		<script language="javascript" src="..\scripts\SCOFunctions.js"></script>
+</head>
+
+<body  style="margin:0;overflow:auto" onunload="SCOFinish()" TEXT="#004080" LINK="Purple" VLINK="Purple" ALINK="Teal" bgcolor="#FFFFFF">
+<SCRIPT language="JavaScript">
+			document.write("<object classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0\" width=\"100%\" height=\"100%\" id=" + sTitle + "> \n");
+			document.write("<param name=allowScriptAccess value=sameDomain> \n");
+			document.write("<param name=movie value="+sTitle+".swf> \n");
+			document.write("<param name=quality value=high> \n");
+			document.write("<param name=scale value=exactFit> \n");
+			
+			document.write("<param name=bgcolor value=#1B384B> \n");
+	  		document.write("<param name=FlashVars value=\"DefEssayFile="+sTitle+".xml&DataFileVer="+sFileVer+"\"> \n");
+		  	document.write("<embed src=\""+sTitle+".swf\" quality=\"high\" bgcolor=\"#FFFFFF\" width=\"100%\" height=\"100%\" name=\""+sTitle+" FlashVars=\"DefEssayFile="+sTitle+".xml&DataFileVer="+sFileVer+"\" scale=\"exactFit\" align=\"middle\" allowScriptAccess=\"sameDomain\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.macromedia.com/go/getflashplayer\"></embed>\n");
+			document.write("</object>\n");
+		</SCRIPT>
+<!--url's used in the movie-->
+<!--text used in the movie-->
+
+</body>
+</html>

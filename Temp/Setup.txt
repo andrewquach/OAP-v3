@@ -1,0 +1,6 @@
+[Setup]
+*	install debug versions of Flash ActiveX or Flash Plugin to see error messages
+*	Chrome; Disable Chrome's built in Flash plugin and enable debug version http://kb2.adobe.com/cps/839/cpsid_83950.html.
+*	to prevent flash log file from being cleared, mm.cfg set PolicyFileLogAppend=1
+**	see http://www.adobeflashplayer9.info/sockets-do-not-function-in-flash-player-versions-later-than-9-0-115-0/
+** see http://jpauclair.net/2010/02/10/mmcfg-treasure/

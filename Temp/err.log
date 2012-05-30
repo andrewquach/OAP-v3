@@ -1,0 +1,19 @@
+Array
+(
+    [0] => Array
+        (
+            [Id] => 141
+            [cWId] => 141
+            [LevelId] => 5
+            [SubjectId] => 3
+            [Title] => 万里香
+            [Publisher] => Marshall Cavendish Online
+            [Price] => 10
+            [Cover] => ../res/LuVEnglish/Cover/1.jpg
+            [Author] => MediaCorp
+            [Synopsis] => This is LuVChinese Courseware
+            [Overview] => 
+            [Preview] => 
+        )
+
+)

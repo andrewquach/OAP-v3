@@ -1,0 +1,47 @@
+/*----------------------------------------------------------------------------------------------------
+	2.Widgets/cMsgBox.css
+----------------------------------------------------------------------------------------------------*/
+/*
+div.cMsgBox
+{
+	position:				absolute;
+	background:				white;
+	border:					solid 1px silver;
+	z-index:10;
+	top:200px;
+	margin:0 auto;
+	padding:10px;
+}
+
+div.cMsgBox td.xIcon
+{
+	padding:				8;
+	vertical-align:			top;
+}
+
+div.cMsgBox td.xMessage
+{
+	padding:				4 8;
+}
+
+div.cMsgBox td.xButtons
+{
+	padding:				4 8; 
+	background:				#E0E0E0;
+	text-align:				right;
+}
+*/
+
+div.cMsgBox
+{ 
+	position:absolute; 
+	margin:0 auto;
+	width:350px;
+	z-index: 10000;
+}
+
+div.cMsgBox .box{background:#fff url(../image/msgbox_bg.png) no-repeat right bottom;height:200px;}
+div.cMsgBox .inner{padding:15px 20px;}
+div.cMsgBox .inner .infoText{height:40px;margin:auto 0;}
+div.cMsgBox .inner .infoText span{color:#ff0000;font-size:12px;}
+div.cMsgBox h3{color:#333;text-shadow:none;text-align:left;}

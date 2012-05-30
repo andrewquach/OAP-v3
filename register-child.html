@@ -1,0 +1,75 @@
+<?php include 'header.html'; ?>
+<script type="text/javascript" language="javascript" src="account/register-child.js"></script>
+<script type="text/javascript" language="javascript" src="js/jquery.ui.core.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/jquery.ui.datepicker.min.js"></script>
+<link href="css/jquery.ui.all.css" media="screen" rel="stylesheet" type="text/css" />
+
+<!-- middle body -->
+<div class="middle">
+<div class="container_12">
+<div class="wrapper2">
+
+<!-- Breadcrumbs -->  
+<ul class="breadcrumbs">
+<li><a id="eEditChildAccount">My Children' Accounts</a></li>
+<li>Child Registration Form</li>
+</ul>
+<!-- Breadcrumbs -->
+<div class="ht30 clearfix"></div>
+<!--Start Register Box-->
+<form id="eForm">
+<h3 class="groupHeader box">Child Account Sign Up</h3>
+<div class="registration border">
+<!--<label></label><input name="title" type="radio" value="Dr">Dr<input name="title" type="radio" value="Mr">Mr<input name="title" type="radio" value="Mrs">Mrs<input name="title" type="radio" value="Ms">Ms-->
+<div class="ht10"></div>
+<label><span>*</span>Child First Name</label><input id="eChildFirst" type="text"/>
+<div class="ht10"></div>
+<label><span>*</span>Child Last Name</label><input id="eChildLast" type="text"/>
+<div class="ht10"></div>
+<label><span>*</span>Child Username</label><input id="eChildUserId" type="text"/>
+<div class="ht10"></div>
+<label><span>*</span>School</label>
+<div id="eSelSchools" style="display:inline"></div>
+<div class="ht10"></div>
+<label><span>*</span>Gender</label>
+<select id="eChildGender">
+<option value=""></option>
+<option value="M">Male</option>
+<option value="F">Female</option>
+</select>
+<div class="ht10"></div>
+<label><span>*</span>Date of Birth</label><input id="eChildDoB" type="text"/>
+<div class="ht10"></div>
+<label><span>*</span>Password</label><input id="eChildPassword" type="password"/>
+<div class="ht10"></div>
+<label><span>*</span>Confirmed Password</label><input id="eChildConfirm" type="password"/>
+<div class="ht10"></div>
+<div id="eOops" class="errorMsg"><span><div id="eErr"></div></span></div>
+<div class="ht10"></div>
+</div>
+
+
+    
+</form>
+<!--End Register Box-->
+
+<div id="eOops" class="register-error" align="center" style="display:none">
+		<table class="note" align="center">
+          <tr>
+            <td align="center"><img src="images/exclaim.jpg"/></td>
+            <td>&nbsp;&nbsp;</td>
+            <td id="eErr" align="center"></td>
+          </tr>
+	    </table>
+   	</div>
+
+</div>
+<div class="ht10"></div>
+<div class="ifyou"><a id="eCreateAccount" class="button_sml"><span>Create Account</span></a></div>
+<div class="clear"></div>
+
+	
+</div>
+</div>
+<!--/ middle body -->
+<?php include 'footer.html'; ?>

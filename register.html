@@ -1,0 +1,75 @@
+<?php include 'header.html'; ?>
+<script type="text/javascript" language="javascript" src="account/register.js"></script>
+<script type="text/javascript" language="javascript" src="js/jquery.ui.core.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/jquery.ui.datepicker.min.js"></script>
+<link href="css/jquery.ui.all.css" media="screen" rel="stylesheet" type="text/css" />
+
+<!-- middle body -->
+<div class="middle">
+<div class="container_12">
+<div class="wrapper2">
+
+<!-- Breadcrumbs -->  
+<ul class="breadcrumbs">
+<li><a id="eStore3">Store</a></li>
+<li>Registration Form</li>
+</ul>
+<!-- Breadcrumbs -->
+<div class="ht30 clearfix"></div>
+<!--Start Register Box-->
+<form id="eForm">
+<h3 class="groupHeader box">Parent Account Sign Up</h3>
+<div class="registration border">
+<!--<label></label><input name="title" type="radio" value="Dr">Dr<input name="title" type="radio" value="Mr">Mr<input name="title" type="radio" value="Mrs">Mrs<input name="title" type="radio" value="Ms">Ms-->
+<div class="ht10"></div>
+<label><span>*</span>First Name</label><input id="eParentFirst" type="text"/>
+<div class="ht10"></div>
+<label><span>*</span>Last Name</label><input id="eParentLast" type="text"/>
+<div class="ht10"></div>
+<label><span>*</span>Username</label><input id="eParentUserId" type="text"/>
+<div class="ht10"></div>
+<label><span>*</span>Password</label><input id="eParentPassword" type="password"/>
+<div class="ht10"></div>
+<label><span>*</span>Confirmed Password</label><input id="eParentConfirm" type="password"/>
+<div class="ht10"></div>
+<label><span>*</span>Email</label><input id="eParentEmail" type="text"/>
+<div class="ht10"></div>
+<label><span>*</span>Gender</label>
+<select id="eParentGender" class="input">
+<option value=""></option>
+<option value="M">Male</option>
+<option value="F">Female</option>
+</select>
+<div class="ht10"></div>
+<label><span>*</span>Date of Birth</label><input id="eParentDoB" type="text"/>
+<div class="ht10"></div>
+<label class="topalign">Address</label><textarea id="eParentAddress" rows="6" cols="20"></textarea>
+<div class="ht10"></div>
+<label>&nbsp;</label><input id="eParentNewsNPromo" type="checkbox" checked>I wish to receive future news and promotions.
+<div class="ht10"></div>
+<label>&nbsp;</label><span>*</span><b>indicates required field</b>
+<div id="eOops" class="errorMsg"><span><div id="eErr"></div></span></div>
+<div class="ht10"></div>
+</div>
+<div class="ht10"></div>
+<div class="ifyou"><a id="eCreateAccount" class="button_sml"><span>Create Account</span></a><br/>If you have already registered, please <a id="eLoginB" class="forgot" style="color: #EA6C00;font-weight: bold;">login</a>.</div>
+<div class="clear"></div>
+</form>
+<!--End Register Box-->
+
+<!--div id="eOops" class="register-error" align="center" style="display:none">
+		<table class="note" align="center">
+          <tr>
+            <td align="center"><img src="images/exclaim.jpg"/></td>
+            <td>&nbsp;&nbsp;</td>
+            <td id="eErr" align="center"></td>
+          </tr>
+	    </table>
+   	</div-->
+
+</div>
+	
+</div>
+</div>
+<!--/ middle body -->
+<?php include 'footer.html'; ?>

@@ -1,0 +1,47 @@
+/*----------------------------------------------------------------------------------------------------
+	1.Core/cPage.css
+----------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------*/
+div.cPage
+{
+	visibility:				hidden;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+.xActive, 
+.xHover, 
+.xSelected, 
+.xDisabled
+{
+	-webkit-user-select:	none;					/* required */
+	-khtml-user-select:		none;					/* required */
+	-moz-user-select:		none;					/* required */
+	-o-user-select:			none;					/* required */
+	user-select:			none;					/* required */
+}
+
+.xActive, 
+.xHover
+{
+	cursor:					pointer;				/* required */
+}
+
+.xSelected, 
+.xDisabled
+{
+	cursor:					default;				/* required */
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+div.xLayoutHFix,
+div.xLayoutHVar
+{
+	float:					left;					/* required */
+	overflow:			  hidden;					/* required */
+}
+div.xLayoutVFix,
+div.xLayoutVVar
+{
+	overflow:				hidden;					/* required */
+}

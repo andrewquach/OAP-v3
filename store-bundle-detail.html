@@ -1,0 +1,167 @@
+<?php include 'header.html'; ?>	
+<!-- middle body -->    
+
+<script type="text/javascript" language="javascript" src="Store/store-bundle.js"></script>
+<script type="text/javascript" language="javascript" src="Classes/cBookSlider.js"></script>
+<script type="text/javascript" language="javascript" src="Classes/cBookPanel.js"></script>
+<script language='javascript' src='Classes/cCart.js'></script>
+
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="css/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/videolightbox.css" media="screen" />
+
+
+<div class="middle" id="sidebar_right">
+
+<div class="container_12">
+
+<div class="wrapper">
+
+<div class="content">
+<ul class="breadcrumbs">
+<li><a id="eStore3">Store</a></li>
+<li>Bundle Detail</li>
+</ul>
+
+<!--/ Product Details -->
+<div class="ht30 clearfix"></div>
+<div class="bookDetails">
+
+<div class="col_1_12 col">
+<div class="inner">
+<img id="eCover" src="image/se34.jpg" class="image_frame border"/>
+</div>
+<div id="videogallery">
+</div>
+</div>
+<div class="bookTitle"><div id="eTitle">i-Science Enrichment Activity</div><span><div id="eLevel"></div></span></div>
+<div class="col_1_5 col">
+<div class="inner">
+<ul class="bookInfo1">
+<li><span>Details:</span><div id="eSynopsis">Pubdsa</div></li>
+</ul>
+</div>
+</div>
+<div class="col_1_6 col">
+<div class="inner">
+<ul class="bookInfo1">
+<li><span>Price:</span><div id="ePrice">SGD212</div></li>
+<li><span>Subscription:</span><div id="eSubscription"></div></li>
+</ul>
+</div>
+</div>
+
+<div class="col_1_7 col">
+
+<a id="eAddToCart" class="button_link juicy_orange"><span>Add to Cart</span></a>
+<div id="eMessage" class="message text-center"></div>
+
+</div>
+<div class="clear"></div>
+</div>
+<h3 id ="eOverviewHeader" class="groupHeader box">Overview</h3>
+<div id="eOverview" class="text margin20">
+To be filled
+</div>
+<br/>
+<hr class="divider2">
+<div><b>Items in this Bundle Pack</b></div>
+<div id="eBundleItemDiv"></div>
+
+<div class="bookDetails">
+
+<div class="col_1_12 col">
+<div class="inner">
+<img id="eCoverItem" src="image/se34.jpg" class="image_frame border"/>
+</div>
+<div id="videogallery">
+<div id="eSampleItItemDiv"><a id="eSampleIt" class="button_sml"><span>Preview</span></a></div>
+<div id="ePreviewCWItemDiv"><a id="ePreviewCW" title="Courseware Preview" class="button_sml"><span>Preview</span></a></div>
+</div>
+</div>
+<div class="bookTitle">
+<div id="eTitleItem">i-Science Enrichment Activity</div><span><div id="eLevelItem"></div></span>
+</div>
+<div class="col_1_5 col">
+<div class="inner">
+<ul class="bookInfo1">
+<li><span>Publisher:</span><div id="ePublisherItem">Pubdsa</div></li>
+<li id="liAuthor"><span>Author:</span><div id="eAuthorItem">dsadsa</div></li>
+</ul>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<h3 class="groupHeader box">Synopsis</h3>
+<div id="eSynopsisItem" class="text margin20">
+To be filled
+</div>
+<!--<h3 class="groupHeader box">Overview</h3>
+<div id="eOverview" class="text margin20">
+To be filled
+</div>-->
+<br/>
+<hr class="divider2">
+<div id="eRelated">
+<h3 class="groupHeader box">Related Products</h3>
+<ul id="mycarouselrelated" class="jcarousel-skin-tango">
+</ul>
+</div>
+<div class="clear"></div>
+<!--/ Product Details -->
+
+</div>
+</div>
+            
+<div id="sidebar_right" class="sidebar">
+<div class="inner">
+
+<!-- widget categories -->
+<div class="widget-container">
+<div class="sideBox">
+<h4 class="sideboxHeader text-right">Shopping Cart</h4>
+<div class="ht10"></div>
+<div class="scrollBox">
+<table width="100%" id="eListData" class="cTableCart" cellspacing="0">
+	<tbody>
+	</tbody>
+	<tfoot>
+		<tr class="cEven">
+			<td class="bkNo">~run</td>
+			<td class="bkTitle">~name</td>
+			<td class="bkNo">~price</td>
+			<td>~img</td>
+		</tr>
+		<tr class="cOdd">
+			<td class="bkNo">~run</td>
+			<td class="bkTitle">~name</td>
+			<td class="bkNo">~price</td>
+			<td>~img</td>
+		</tr>
+	</tfoot>
+</table>
+</div>
+<hr class="divider2"></hr>
+<div class="bookCartTotal">TOTAL (including GST)<span id='eTotal'>0</span></div>
+<a id='eGoToCart' class="button_link sky_blue"><span>Check Out</span></a>
+<div class="clear"></div>
+</div>
+</div>
+
+<!--ul class="menu_right">
+	<li><a  title="Tests" class="current"><span>Tests</span></a></li>
+    <li><a  title="Favourites"><span>Favourites</span></a></li>
+</ul-->
+
+<!--/ widget categories -->
+
+</div>
+</div>
+
+<div class="clear"></div>
+
+</div>	
+</div>
+<!--/ middle body -->
+<?php include 'footer.html'; ?>	

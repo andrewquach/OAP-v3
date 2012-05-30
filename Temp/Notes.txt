@@ -1,0 +1,29 @@
+[Notes]
+*	when comparing "undefined", use === and !==. Otherwise, null == undefined.
+*	IE include borders as part of width/height but FF does not.
+*	IE6; save DHTML in such a way they retain their values while FF does not.
+*	IE6; allows elements to have "name" properties within tags while FF does not.
+*	IE6; IE shows original html BEFORE updates; overcome using display.style on #eBody.
+*	IE6 overflow:hidden will hide position:absolute elements.
+*	IE6; must have Cache-Contro: must-revaliadate AND Expires.
+*	IE6; cannot store arbitary attributes into <button> so resort to using getAttribute("data").
+*	IE7; checkbox return value as "on" / "Off" instead of value of value.
+*	FF requires border css to have "px" on width.
+*	IE/FF; Refresh can be recognized (same as history).
+*	IE/FF/Chrome; set window.location using current url will NOT result in new history.
+*	Chrome; Disable Chrome's built in Flash plugin and enable debug version http://kb2.adobe.com/cps/839/cpsid_83950.html.
+
+[20101004]
+*	use fExtend (in Base.js) to extend a method.
+*	use fSuper (in Base.js) to call a method's super.
+*	reorg folders to go by modules (bring .html, .css, .js, .php)
+*	reorg folders to use Lib\ Common\ folders
+*	fixed sys.php header Expires for IE to revalidate cache
+*	cRequest to dynamically create transparent mask and message divs.
+*	cRequest.fStart() to take in extra vUrl.
+*	removed xfOnFrameLoad() and xfOnFrameUnLoad()... not necessary now using different iFrame method.
+
+[ToDo]
+*	test against Safari to handle the Browser "Loading..." problem.
+*	move to new UI.
+

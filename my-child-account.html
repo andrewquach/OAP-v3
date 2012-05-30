@@ -1,0 +1,87 @@
+<?php include 'header.html'; ?>   
+<!-- middle body -->
+<script type="text/javascript" language="javascript" src="Account/my-child.js"></script>    
+<div class="middle" id="sidebar_right">
+<div class="container_12">
+
+<!-- Start Wrapper -->
+<div class="wrapper">
+<div class="content">
+
+<!-- Breadcrumbs -->
+<ul class="breadcrumbs">
+<li><a id="eMySummary3">My Summary</a></li>
+<li>My Children' Accounts</li>
+</ul>
+<div class="ht20"></div>
+<!-- Breadcrumbs -->
+
+<div id="eChildren"></div>
+
+<a id="eCreateChildAccount" class="button_sml alignright"><span>Create</span></a>
+
+
+<div class="clear"></div>
+
+<div id="eEdit" style="display:none">
+<!--Start Edit Box-->
+<form id="eForm">
+<div class="registration border">
+<!--<label></label><input name="title" type="radio" value="Dr">Dr<input name="title" type="radio" value="Mr">Mr<input name="title" type="radio" value="Mrs">Mrs<input name="title" type="radio" value="Ms">Ms-->
+<div class="ht10"></div>
+<label><span>*</span>Username</label><input id="eUserId" type="text"/>
+<div class="ht10"></div>
+<label><span>*</span>Password</label><input id="ePassword" type="password"/>
+<div class="ht10"></div>
+<label><span>*</span>Confirmed Password</label><input id="eConfirm" type="password"/>
+<div class="ht10"></div>
+<div id="eOops" class="errorMsg"><span><div id="eErr"></div></span></div>
+<div class="ht10"></div>
+</div>
+<div class="ht10"></div>
+<div class="ifyou"><a id="eCreateAccount" class="button_sml"><span>Apply</span></a></span></div>
+<div class="clear"></div>
+</form>
+<!--End Edit Box-->
+
+<!--div id="eOops" class="register-error" align="center" style="display:none">
+		<table class="note" align="center">
+          <tr>
+            <td align="center"><img src="images/exclaim.jpg"/></td>
+            <td>&nbsp;&nbsp;</td>
+            <td id="eErr" align="center"></td>
+          </tr>
+	    </table>
+   	</div-->
+</div>
+
+</div>
+</div>
+<!-- End Wrapper -->
+
+<!-- Start Sidebar -->
+<div class="sidebar">
+<div class="inner">
+<h3 id="ParentName">Parent Tan's Account</h3>
+
+<div class="widget-container">
+<div class="sideBox">
+<h4 class="sideboxHeader text-right">Your Account</h4>
+<ul class="userSideBox">
+<li><span>Name:</span><div id="ParentName2">Parent Tan</div></li>
+<li><span>Email:</span><div id="ParentEmail">parenttan@mconline.sg</div></li>
+</ul>
+<hr class="divider2"></hr>
+<a id="eEditAccount" class="button_sml alignright"><span>Edit</span></a>
+<div class="clear"></div>
+</div>
+</div>
+<!-- End Sidebar -->
+
+</div>
+</div>
+
+</div>
+</div>
+<!--/ middle body -->
+<?php include 'footer.html'; ?>

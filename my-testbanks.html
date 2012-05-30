@@ -1,0 +1,170 @@
+<?php include 'header.html'; ?>	
+<!-- middle body -->
+<script type="text/javascript" language="javascript" src="Testbank/testbank.js"></script>
+<script type="text/javascript" language="javascript" src="Testbank/cDynResultList.js"></script>
+<script type="text/javascript" language="javascript" src="js/jquery.qtip.js"></script>
+<link href="css/jquery.qtip.css" media="screen" rel="stylesheet" type="text/css" />
+
+<!-- Start of Container -->
+<div class="middle" id="sidebar_right">
+
+<div class="container_12">
+
+<!-- Start of Wrapper -->
+<div class="wrapper">
+<div class="content">
+
+<!-- Start of Breadcrumbs -->
+<ul class="breadcrumbs">
+<li><a id="eMySummary3">My Summary</a></li>
+<li>My TestBank</li>
+</ul>
+<!-- End of Breadcrumbs -->
+
+<div class="ht20"></div>
+
+<!-- Start Book Details Box -->
+<div class="bookDetails box border">
+<div class="col_1_12 col">
+<div class="inner">
+<img id="eCover" src="res/Testbank/Cover/placeholder.jpg" class="image_frame">
+</div>
+</div>
+<div class="bookTitle"><div id="eTitle">xyz</div><span><div id="eLevel">P3/4</div></span></div>
+<div class="col_1_4 col">
+<div class="inner">
+<ul class="bookInfo1">
+<li><span>Publisher:</span><div id="ePublisher">Marshall Cavendish Online</div></li>
+<!--li><span>Author:</span><div id="eAuthor">dsadsa</div></li-->
+<li><span>Expired on:</span><div id="eExpired"></div></li>
+</ul>
+</div>
+</div>
+<div class="col_1_4 col">
+<div class="inner">
+<ul class="bookInfo1">
+<li><span>Completion:</span>
+<div class="meter-wrap">
+    <div id="eProgress" class="meter-value" style="background-color: #0a0; width: 30%;">
+        <div class="meter-text">
+        </div>
+    </div>
+</div>
+</li>
+<!--<li><span>Assigned to:</span><div id="eChildsDiv"></div></li>-->
+</ul>
+</div>
+</div>
+<div class="clear"></div>
+<hr class="divider2"></hr>
+<!-- Start Child Details/Options -->
+<div class="childDetails alignleft">
+<div class="childItem"><a id="eSubscribe" class="button_sml"></a><img data="alert" class="cTip" src="image/ico_properties.png"/></div>
+</div>
+<div class="childDetails alignright">
+<div class="childItem"><span><b>Assigned to:</b><div id="eChildsDiv">dsadsa</div></span><a id="eSwitch" class="button_sml"><span>Assign</span></a></div>
+</div>
+<!-- End Child Details/Options -->
+<div class="clear"></div>
+</div>
+<!-- End Book Details Box -->
+
+
+
+<!--div class="box border">
+<div class="inner">
+<img src="res/Testbank/Cover/placeholder.jpg" id="eCover" class="image_frame alignleft"/>
+<ul class="bookInfo2">
+<li id="eTitle">xyz</li>
+<li id="ePublisher">Cavendish Online</li>
+<li id="eLevel">P3/4</li>
+<li><span>Completion:</span>Progress Bar here</li>
+<li id="eChildsDiv">
+</li>
+</ul>
+<a id="eSwitch"  class="button_link alignright"><span>Re-Assign</span></a>
+</div>
+<div class="clear"></div>
+</div>
+<div class="forgot text-right"><a id="eMySummary2" class="button_link sports_green"><span>Back to My Summary</span></a></div>
+<div class="ht20"></div-->
+
+<div class="ht20"></div>
+
+<!-- Start Table -->
+<table id='eResultList' class='cTable' width='100%' cellspacing='0'>
+	<thead>
+      <tr>
+        <td width='30%' class='cField'>Title</td>       
+        <td width='10%' class='cField'>Score</td>
+        <td width='10%' class='cField'>Total</td>
+        <td width='10%' class='cField'>Percent</td>
+        <td width='10%' class='cField'>First Score</td>                                  
+        <td width='10%' class='cField'>Last Score</td>
+        <td width='10%' class='cField'>High Score</td>
+        <td width='10%' class='cField'>No. of Attempts</td>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    <tfoot>
+      <tr class="cEven">
+        <td width='30%'><a class='cLink cClickable' to='cDynResultList' data='~TestId'>~Title</a>&nbsp;&nbsp;<img data='~TestId' class="cTip" src="image/ico_properties.png" />&nbsp;&nbsp;&nbsp;&nbsp;~PauseImg</td>         
+        <td width='10%' align=center>~Correct</td>
+        <td width='10%' align=center>~Total</td>
+        <td width='10%' align=center>~Percent</td>         
+        <td width='10%' align=center>~First</td>          
+        <td width='10%' align=center>~Last</td>
+        <td width='10%' align=center>~High</td>
+        <td width='10%' align=center>~Attempt</td>                               
+      </tr>
+      <tr class="cOdd">
+        <td width='30%'><a class='cLink cClickable' to='cDynResultList' data='~TestId'>~Title</a>&nbsp;&nbsp;<img data='~TestId' class="cTip" src="image/ico_properties.png" />&nbsp;&nbsp;&nbsp;&nbsp;~PauseImg</td>         
+        <td width='10%' align=center>~Correct</td>
+        <td width='10%' align=center>~Total</td>
+        <td width='10%' align=center>~Percent</td>         
+        <td width='10%' align=center>~First</td>          
+        <td width='10%' align=center>~Last</td>
+        <td width='10%' align=center>~High</td>
+        <td width='10%' align=center>~Attempt</td>                                  
+      </tr>
+    </tfoot>
+</table>
+<div class="ht20"></div>
+<div class="forgot text-right"><a id="eMySummary2">Back to My Summary</a></div>
+<!-- End  Table -->
+
+</div>
+</div>
+<!-- End of Wrapper -->
+
+<!-- Start Sidebar -->
+<div class="sidebar">
+<div class="inner">
+
+<!-- widget categories -->
+<div class="widget-container widget_categories">
+<h3 id="ParentName">Parent Tan's Account</h3>
+<ul>
+<li><a id="eGenerateTopical">Generate Topical Test</a></li>
+<li><a id="eMyTestbank">My Testbank</a></li>
+</ul>
+</div>
+
+<!--ul class="menu_right">
+	<li><a  title="Tests" class="current"><span>Tests</span></a></li>
+    <li><a  title="Favourites"><span>Favourites</span></a></li>
+</ul-->
+
+<!--/ widget categories -->
+
+</div>
+</div>
+<!-- End Sidebar -->
+
+</div>	
+</div>
+<!-- End of Wrapper -->
+
+<!--/ middle body -->
+<?php include 'footer.html'; ?>

@@ -1,0 +1,95 @@
+<?php include 'header.html'; ?>	
+<!-- middle body -->    
+<script type="text/javascript" language="javascript" src="Book/book-favourite.js"></script> 
+<script type="text/javascript" language="javascript" src='Classes/cFavoriteList.js'></script> 
+
+<div class="middle" id="sidebar_right">
+
+<div class="container_12">
+
+<div class="wrapper">
+
+<div class="content">
+<ul class="breadcrumbs">
+<li><a id="eMySummary3">My Summary</a></li>
+<li>My Books' Favourite</li>
+</ul>
+<div class="ht20"></div>
+
+<div class="box border">
+<div class="inner">
+<img src="res/PSC_OxfordPrimaryEssentials/Cover/P3P4B.jpg" id="eCover" class="image_frame alignleft"/>
+<ul class="bookInfo2">
+<li id="eTitle">Grammar Practice 1</li>
+<li id="eAuthor">Lim Chia Yi</li>
+<li id="ePublisher">Panpac Education</li>
+<li id="eLevel">P1</li>
+<li><span>Completion:</span>Progress Bar here</li>
+<li id="eChildsDiv">
+</li>
+</ul>
+<a id="eSwitch"  class="button_link alignright"><span>Change</span></a>
+</div>
+<div class="clear"></div>
+</div>
+<div class="forgot text-right"><a id="eMySummary2" class="button_link sports_green"><span>Back to My Summary</span></a></div>
+<div class="ht20"></div>
+<table id='eListData' class="cTable" width='600px' cellspacing="0">
+  <thead>
+    <tr>
+      <td width='10%' class='cField'>Unit</td>
+      <td width='10%' class='cField'>Qtn</td>       
+      <td width='40%' class='cField'>Title</td>
+      <td width='20%' class='cField'>Last Attempt</td>
+      <td width='20%' class='cField'>Remove</td>          
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+  <tfoot>
+    <tr class="cEven">
+      <td width='10%' align=center>~Unit</td>
+      <td width='10%' align=center><a data='~QtnId' to='cFavoriteList' class='cLink cClickable' type='favQtn'>~Tag</a></td>         
+      <td width='40%'>~Title</td>
+      <td width='20%' align=center>~LastAttempt</td>         
+      <td width='20%' align=center to='cFavoriteList' type='fav'>~Star</td>          
+    </tr>
+    <tr class="cOdd">
+      <td width='10%' align=center>~Unit</td>
+      <td width='10%' align=center><a data='~QtnId' to='cFavoriteList' class='cLink cClickable' type='favQtn'>~Tag</a></td>                               
+      <td width='40%'>~Title</td>
+      <td width='20%' align=center>~LastAttempt</td>         
+      <td width='20%' align=center to='cFavoriteList' type='fav'>~Star</td>                            
+    </tr>
+  </tfoot>
+</table>
+</div>
+</div>
+            
+<div class="sidebar">
+<div class="inner">
+
+<!-- widget categories -->
+<div class="widget-container widget_categories">
+<h3 id="ParentName">Parent Tan's Account</h3>
+<ul>
+<li><a id="eTest">Test</a></li>
+</ul>
+</div>
+
+<!--ul class="menu_right">
+	<li><a  title="Tests" class="current"><span>Tests</span></a></li>
+    <li><a  title="Favourites"><span>Favourites</span></a></li>
+</ul-->
+
+<!--/ widget categories -->
+
+</div>
+</div>
+
+<div class="clear"></div>
+
+</div>	
+</div>
+<!--/ middle body -->
+<?php include 'footer.html'; ?>

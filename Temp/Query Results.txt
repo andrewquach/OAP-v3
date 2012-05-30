@@ -1,0 +1,659 @@
+Parent Firstname, Lastname, Email, Relationship, Child Firstname, Gender, Level
+
+Richard,Tan,richardtan@mconline.sg,Father,Alex,M,1
+Richard,Tan,richardtan@mconline.sg,Father,Bryan,M,2
+Richard,Tan,richardtan@mconline.sg,Father,Charlie,M,3
+Richard,Tan,richardtan@mconline.sg,Father,Denise,F,4
+Richard,Tan,richardtan@mconline.sg,Father,Erica,F,5
+Richard,Tan,richardtan@mconline.sg,Father,Frieda,F,6
+Vernon,Kwek,vkwek@hotmail.com,Father,Tiffany,F,2
+Shirley,Chew,shirleychew73@hotmail.com,Mother,Xavienne,F,3
+Desmond,Goh,hdgoh@singnet.com.sg,Father,Charmaine,F,4
+hui chye,tan,huichye@singnet.com.sg,Father,yong ziab,M,4
+poh lee,tan,panpl@dbs.com,Mother,zng hiong,M,1
+Tue Eng,Teo,tocheck.mail@gmail.com,Mother,Jonathan,M,5
+Thomas,Toh,toh.thomas@hotmail.com,Father,Javier,M,3
+Amy,Chua,totoro368@gmail.com,Mother,Casey,M,4
+jolene ,Low,jolene.888@gmail.com,Mother,Nicol,F,3
+jolene,Low,jolene.888@gmail.com,Mother,Nathen,M,1
+Wee Kwang,Teo,tariez@hotmail.com,Father,Ziting,F,5
+li li,oh,lili.ng_llng@yahoo.com.sg,Mother,siang ann,M,4
+richard,oh,richard_okf@yahoo.com.sg,Father,siang tze,M,2
+Raymond,Ng,raymond_ng_ph@hotmail.com,Father,Cheryl,F,3
+Eric,Lim,limsoonpeng@yahoo.com,Father,"Shao En, Seth",M,2
+Eric,Lim,limsoonpeng@yahoo.com,Father,"Yao En, Sean",M,1
+Sheila,Anbagan,sheilaanbalagan@gmail.com,Mother,Hemarubini,M,4
+Ngoh Huang,Tan,ngohhuang@hotmail.com,Father,PeiYing,F,5
+seetha,varan,dinesh64@live.com,Mother,dinesh,M,6
+Kim,Peng,xuanyunxi@hotmail.com,Mother,YouXuan,F,6
+kim,peng,xuanyunxi@hotmail.com,Mother,youyun,F,3
+Richard,Ng,bluelizaberth@hotmail.com,Father,Marshall,M,6
+teck lee ,loh,tlloh55@hotmail.com,Father,ser nee ,F,4
+Joyce,Ng,ntkng@singnet.com.sg,Mother,Gerrard,M,1
+Linda,Chua,siyunashley@hotmail.com,Mother,Ashley,F,5
+KL,Wong,jasmine_char@hotmail.com,Father,Hazel,F,5
+CY,Wong,jasmine_char@hotmail.com,Mother,Damien,M,3
+Leanne,chan,leanne_n@yahoo.com,Mother,nadia,F,3
+Kelvin,Chan,kelchan65@hotmail.com,Father,Nicole,F,5
+Emily,yeong,emilytanll@yahoo.com.sg,Mother,alyssa,F,3
+Nick ,Yeong,nickyeong@tiantaingroup.com.sg,Father,Amanda,F,6
+Catherine,Er,catgoh03@yahoo.com.sg,Mother,Wen Da,M,1
+Meng Joo,Er,emjer@ntu.edu.sg,Father,Wen Han,M,5
+san lik,tang,tangsanlik@yahoo.com.sg,Father,valerie,F,4
+Cheng Kang,Yan Li,cktan_sg@yahoo.com.sg,Father,Tan,F,5
+Lay Peng,Tan,green4rhythm@yahoo.com.sg,Mother,Vanessa,F,5
+Jou Wen,Lew,lewjouwen@yahoo.com,Father,Yi Shen,M,6
+Cindy,Ng,cndloh@gmail.com,Mother,Kieran Gregg,M,5
+wilbur,leonardia,ewok2004@gmail.com,Father,sean,M,5
+Annie,Cheong,annie.limcheong@gmail.com,Mother,Ethan,M,3
+Arthur,Cheong,omniname@gmail.com,Father,Elysia,F,1
+KH,Cheong,khenghwa.cheong@gmail.com,Father,Zacc,M,4
+Benjamin,Wee,benwee@singnet.com.sg,Father,Kimberly,F,3
+Benjamin,Wee,benwee@singnet.com.sg,Father,Tiffany,F,1
+Judy,Wee,judyang_1@yahoo.com,Mother,Wayne ,M,2
+Patricia,Ng,patlee7188@gmail.com,Mother,Weihao,M,6
+karen,koo,koocc@singnet.com.sg,Mother,mei xuan,F,5
+jennifer,chiam,chiam188@yahoo.com.sg,Mother,jolin,F,4
+jane,tan,lingcl_jane@yahoo.com.sg,Mother,vernice,F,3
+wewewe,wewe,speedwinzs@yahoo.com,Father,wewe,M,3
+Coreen,Khor,coreen4567@hotmail.com,Mother,Geng Jun Benjamin,M,4
+Joanne,Gwee,tanjhjo@yahoo.com.sg,Mother,Julius,M,2
+Joanne,Gwee,tanjhjo@yahoo.com.sg,Mother,Justin,M,2
+Betty,Teo,betty812@singnet.com.sg,Mother,Janessa,F,5
+Angelina,Wee,angelinalim@alephstar.com,Mother,Kimberly,F,3
+Angelina ,Wee,angelinalim@alephstar.com,Mother,Tiffany,F,1
+wee hong,goh,whgoh88@gmail.com,Father,xue zhe,M,6
+Wee Hong,goh,whgoh88@gmail.com,Father,xue yuan,M,4
+Ming Shu,Chin,macchins@pacific.net.sg,Father,Elspeth,F,2
+Ganesh,Ganesh,ganeshrmohan@yahoo.com.sg,Father,Lingesh,M,3
+Ganesh,Ganesh,ganeshrmohan@yahoo.com.sg,Father,Sivanesh,M,1
+Jenny, Yue Jun ,sseetohxiuen@live.com.sg,Mother,See Toh,M,5
+boon hock,pan,bhpan@singnet.com.sg,Father,teck yong,M,5
+Lock Pin,Chew,lockpin@gmail.com,Father,Ethan,M,5
+Edmund,Lim,edmundlimwk@yahoo.com.sg,Father,Emanuel,M,4
+Edmund,Lim ,edmundlimwk@yahoo.com.sg,Father,Clare,F,1
+iris,tan,irischuang123@gmail.com,Mother,lucas,M,6
+iris,tan,irischuang123@gmail.com,Mother,linus,M,5
+iris,tan,irischuang123@gmail.com,Mother,leo,M,1
+Priscilla,Lee,prisgoh55@yahoo.com,Mother,Cheryl,F,3
+Priscilla,lee,prisgoh55@yahoo.com,Mother,jessica,F,1
+Alastair,Spykerman,alspyke@yahoo.com,Father,Ashley,F,5
+Gail,Tan,e_meelsg@yahoo.com.sg,Mother,Estelle,F,4
+Audrey,Lian,audrey.eng@freescale.com,Mother,Eugene,M,4
+BeeLian,Wong,bltan2010@hotmail.com,Mother,SiXuan,F,6
+Audrey,Lian,audrey.eng@freescale.com,Mother,Nicholas,M,5
+Jacqueline,Ng,wangkeng@gmail.com,Mother,Chloe,F,6
+Cher Woon,Tan,miltonlim@hotmail.com,Guardian,Yen Ee,F,5
+Jacqueline,Ng,wangkeng@gmail.com,Mother,Rena,F,3
+Joseph,Lim,joelim07@gmail.com,Father,Jared,M,3
+Yew Chuan,Toh,yctoh@pacific.net.sg,Father,Ke Han,M,5
+Pat,soh,limct75@hotmail.com,Mother,leondas,M,5
+Pat,soh,limct75@hotmail.com,Mother,Gerlin,F,2
+Cheng Kang,Tan,cktan_sg@yahoo.com.sg,Father,Yan Zhang,M,5
+Joanna,Kim,joannawong123@gmail.com,Mother,Josh,M,3
+mei,chow,acmj0721@singnet.com.sg,Mother,jolin,F,3
+Stephen,Tan,stephen788@yahoo.com,Father,catherine,F,4
+bee ken,lai,janiceken@hotmail.com,Mother,syn tian,F,3
+Cheng Kang,Tan,cktan_sg@yahoo.com.sg,Father,Yan Li,F,5
+Cheng Kang,Tan,cktan_tan@yahoo.com.sg,Father,Yan Tong,F,5
+Alicia,Goh,alicenia2000@yahoo.com,Mother,Isabelle,F,4
+ai ping,koh,kn_ap@yahoo.com,Mother,u-chuen,M,5
+Tan,Tan,cktan_sg@yahoo.com.sg,Father,Tan Yan Zhang,M,5
+Robson,Ong,rob7773@hotmail.com,Father,Rene,F,1
+Albert,eng,alberteng2007@gmail.com,Father,glenden,M,6
+Albert,Eng,alberteng2007@gmail.com,Father,Dalton,M,3
+Amy,Ang,amy_allyn@yahoo.com.sg,Mother,Allyn,F,3
+yock choo,yap,tan_yock_choo@mom.gov.sg,Mother,yixian,M,4
+Jasie,Gan,jasie6@gmail.com,Mother,Jonathan ,M,5
+Jasie,Gan,jasie6@gmail.com,Mother,Crystal,F,3
+Pamela,lee,cheong.pamela@gmail.com,Mother,sammi,F,3
+Kha Noy,Ho,noy.yeo@gmail.com,Mother,Kin Tat,M,4
+Sophia,Teo,sophiaho@singnet.com.sg,Mother,George,M,3
+Kha Noy,Ho,noy.yeo@gmail.com,Mother,Gin Aik,M,2
+Ming Chin,Cheng,tansiewchien@hotmail.com,Father,Cerisse,F,3
+Sophia,teo,sophiaho@singnet.com.sg,Mother,glenn,M,1
+Pan,Kua,terry_kua@yahoo.com,Mother,Terence,M,1
+Edna,Tan,ashtan@singnet.com.sg,Mother,Timothy,M,2
+tuimuan,wang,wangtuimuan@yahoo.com.sg,Father,kang rui,M,4
+Edna,Tan,ashtan@singnet.com.sg,Mother,Sandra,F,4
+Belinda,Chua,belchai@yahoo.com,Mother,Jeriel,M,5
+Belinda,Chua,belchai@yahoo.com,Mother,Essek,M,1
+Jessie,Goh,terssiegoh@yahoo.com,Mother,Reanne,F,2
+Mui Fong,Tan,samantha_tan@live.com,Mother,Samantha,F,6
+Mui Fong,tan,Samantha_tan@live.com,Mother,alson,M,3
+Florence,lee,socksian_ang@yahoo.com.sg,Mother,yisha,F,3
+chee wee,thien,cwthien@gmail.com,Father,"ai xin, regine",F,1
+gina,toh,ginacheong@yahoo.co.uk,Mother,charis,F,2
+Ming Yaw,foo,gfm_model@hotmail.com,Father,walter,M,3
+Yon Wah,Sim,thomas_sim@canon.com.sg,Father,Gavin,M,2
+Lynn,Chin,lynnwee@singnet.com.sg,Mother,Ashley,F,1
+siew teng,Lim,stcheah08@yahoo.com.sg,Mother,jingming,F,2
+taun pin,neo,sirn2-ab@yahoo.com.sg,Father,tahnya,F,2
+siew teng,Lim,stcheah08@yahoo.com.sg,Mother,jing xuan,F,4
+tuan pin,neo,sirn2-ab@yahoo.com.sg,Father,lisuen,F,3
+Siok Lee,Yam,chuasl2004@yahoo.com.sg,Mother,Hong Meng,M,3
+Mun Kuen,Lim,mun_kuen@yahoo.com,Mother,Casey,F,3
+Rachel,Lau,rachel23@singnet.com.sg,Mother,Ryan ,M,3
+Cindy,YOONG,cindy_wong@singnet.com.sg,Mother,JUNHAN,M,4
+Judy,Tong,judygoh_hc@yahoo.com.sg,Mother,Chester,M,4
+june,ho,shermaine_ho@hotmail.com,Mother,stafford,M,6
+Yew Lin,Tee,ong_yew_lin@moe.edu.sg,Mother,Melissa,F,5
+Ivy,lee,leepohchoo@hotmail.com,Mother,belle,F,3
+Jennifer ,Cheng,jenniyap@singnet.com.sg,Mother,Charlene,F,3
+Stella,Chua,mctchua@gmail.com,Mother,Chloe,F,6
+winson ho wing seng,ho,winson_ho_w_s@yahoo.com,, kum  hou,M,2
+moon,Woo,moonwongko@singnet.com.sg,Mother,Shao Wen,M,5
+Kar Leng,Fun,juneleekl@yahoo.com.sg,Mother,Ronnie,M,2
+Anthony,Yeo,anthonyyeo@yahoo.com,Father,Darren,M,1
+Chek Boon,Lim,mister.boon@yahoo.com.sg,Father,ShanYin,F,3
+Chek Boon,Lim,mister.boon@yahoo.com.sg,Father,Xian Hong,M,1
+choon yeow,tan,jasontan77@yahoo.com.sg,Father,zhi rong,M,1
+Janet,Teh,sktayjanet@yahoo.com.sg,Mother,JingYing,F,6
+Janet,Teh,sktayjanet@yahoo.com.sg,Mother,HanYi,F,4
+Kooi Wah,Low,chong.kooi.wah@gmail.com,Mother,Tjun Lym,M,4
+kooi wah,low,chong.kooi.wah@gmail.com,Mother,huey sze,F,6
+Jason,Goh,nicemoon01@yahoo.com.sg,Father,Gabriel,M,5
+Lilim,lee,yinghui1999@live.com.sg,Mother,ying hui,F,6
+lilim,Lee,l.yingle@yahoo.com.sg,Mother,ying le,F,3
+Pamela,Lee,pamlee317@yahoo.com.sg,Mother,Caitlin,F,4
+Bee Keow,Teo,bkng62@hotmail.com,Mother,Li Juan,F,3
+Seng Full,Lee,sengfulllee@gmail.com,Father,zelene,F,2
+Cecilia,Ho,cwailing@hotmail.com,Mother,Eric,M,6
+Brenda,Loo,brendawlt@yahoo.com.sg,Mother,Gregory,M,4
+Simon,Lee,ee51wl@singnet.com.sg,Father,Elsie,F,4
+chin chuan,ng,ngcncn@gmail.com,Father,zhi qing,F,5
+Simon,lee,ee51wl@singnet.com.sg,Father,rachel,F,3
+Richard,Tang,richard.epim@gmail.com,Father,Laura,M,2
+Liyana,Ismail,liyana7@singnet.com.sg,Mother,Nur Amelina,F,4
+Thomas,Chia,tomsktan@singnet.com.sg,Father,Chloe,F,1
+KianFatt,Yong,uts2677@singnet.com.sg,Father,Jane,F,6
+Leanne,Chan,leanne_n@yahoo.com,Mother,Nicole,F,5
+kianfatt,yong,uts2677@singnet.com.sg,Father,chris,M,4
+mohammad,md nazri,nzaira4@singnet.com.sg,Father,nabila nasuha,F,3
+Diana,Lim,dianakme@hotmail.com,Mother,Daphne,F,5
+Kandasamy,Pritikaa,umaprabhu523@yahoo.com,Mother,Venkatesh,F,2
+Daryl,Lim,dianakme@hotmail.com,Father,Dylan,M,3
+agnes,huang,agnesyen2001@yahoo.co.uk,Mother,jolene,F,2
+Thiam Chye,Lim,limthiamchye@gmail.com,Father,Zhihui,F,1
+CHUI ING,Yap,ci25ding@yahoo.com.sg,Mother,Adrian,F,4
+Sani,Sani,sanihamid@yahoo.com,Father,Wan Hanafi,M,1
+Su Sin,chang,kerk_su_sin@yahoo.com,Mother,chia yin,M,2
+Idros,Idros,idrossardi@gmail.com,Father,Muhammad Firdaus,M,3
+Hui Ling,Lim,nvhuiling@yahoo.com.sg,Mother,Nicole,F,5
+pearlyn,tang,pearlyn35@gmail.com,Mother,champ fong,M,3
+Hui Ling,Lim,nvhuiling@yahoo.com.sg,Mother,Irwin,M,1
+MICHELLE,NG,MAHOGANY@PACIFIC.NET.SG,Mother,XIN LE,F,4
+Vanessa,Ng,vanloh@gmail.com,Mother,Chloe,F,1
+Brenda,Chua,brendakuah@gmail.com,Mother,Aloysius,M,2
+yongmeng,chiam,yongmeng@gmail.com,Father,zongngee,M,3
+Maggie,Goh,maggiech@singnet.com.sg,Mother,Lucas,M,1
+peina,chiam,peinahuang@gmail.com,Mother,hwee,F,1
+jin kiat,choo,ivy1957@singnet.com.sg,Father,choo thian soon,M,4
+Paramasivam,Senthilkumar,hemasen@gmail.com,Mother,Charran ,M,5
+nawaz,mohammed,adamhameetha@hotmail.com,Mother,nawaz,M,5
+kim yen,koh,kimkoh70@yahoo.com,Mother,kimi,F,1
+Jess,Kan,jessleewk@gmail.com,Mother,Clara ,F,3
+Jean,ong,jeanybh@hotmail.com,Mother,samuel,M,3
+Alice,Yap,engalice@singnet.com.sg,Mother,Angeline,F,6
+Tai Wai,Lam,davidlamtw1@yahoo.com,Father,Shi Le,F,3
+shirley,lim,shirley197323@yahoo.com.sg,Mother,rachel,F,5
+lim,lim,les71@starhub.net.sg,Father,russell,M,2
+Rajesh,Pahwa,rajeshpahwa@gmail.com,Father,Uttathya,M,6
+michelle,chau,henrychau69@yahoo.com,Mother,Tim,M,5
+Karin,Chung,karin_neo@hotmail.com,Mother,Jolene,F,3
+John,yong,johnyong88@hotmail.com,Father,fengwei,M,3
+john ,yong,johnyong88@hotmail.com,Father,fenggin,M,1
+sree lakshmi,sreekanth,sreelaks_a@yahoo.com.sg,Mother,abhinav,M,4
+gayathri,sambhangi,gayathri_sambhangi@yahoo.com.sg,Mother,kowshik,M,3
+Sherlene,Goh,sherlene25@yahoo.com.sg,Mother,HsingTong,F,2
+Sherlene,Goh,Sherlene25@yahoo.com.sg,Mother,TingXuan,F,1
+Neo ,Zan Hao,neoaileng@hotmail.com,Mother,Low,M,5
+Neo,Zan Rong,neoaileng@hotmail.com,Mother,Low,M,1
+Neo,Zan Jia,neoaileng@hotmail.com,Mother,Low,F,3
+rajesh.r.,jyothi rajesh,kirmu@yahoo.com,Father,nandana,F,1
+chek jee,toh,chekjee@gmail.com,Mother,huiying,F,5
+faith,foo,faithcsp@gmail.com,Mother,ming zhou,M,4
+Wendy,ANG,wendy@apsswim.com,Mother,Kai Ze,M,2
+faith,foo,faithcsp@gmail.com,Mother,ming guo,M,1
+Marc,Goh,sherlene25@yahoo.com.sg,Father,Ethan,M,4
+Mani,NM,ncmani_sg@yahoo.com.sg,Father,Ananth,M,1
+Iris,Lai,fooiris@yahoo.com.sg,Mother,Kieran,M,1
+Irene,Stevens,irene_ong_ching_ling@moe.edu.sg,Mother,Vennessa,F,5
+Irene,Stevens,irene_ong_ching_ling@mo.edu.sg,Mother,Kevin,M,3
+Alex,Lim,monochrom13@yahoo.com.sg,Father,Yu Xuan,M,3
+Mary T,t,tariez@hotmail.com,Mother,ting,F,2
+CHRISTINE,LIM,tee_christine@yahoo.com.sg,Mother,ZHI YU ZOE,F,6
+Sharon,Teo,family_teo@singnet.com.sg,Mother,Ying shi,F,5
+Ratna ,The,ratna_sutantio@hotmail.com,Mother,Jasmine,F,2
+esther,chin,rtxii@yahoo.com,Mother,elysse,F,3
+Onnkay,Toh,onnkay@hotmail.com,Mother,Gin,M,1
+Onn Kay,Toh,onnkay@hotmail.com,Mother,Sim,F,3
+vincent,tan,vchong68@hotmail.com,Guardian,rose,F,5
+Lee Hoon,Lim,chualeehoon@gmail.com,Mother,Yang En,M,4
+Wendy Gladys,Goh,gladystan175@hotmail.com,Mother,Jovian,M,2
+Wendy Gladys,Goh,gladystan175@hotmail.com,Mother,Melody,F,4
+May,Tan,mayclm74@yahoo.com.sg,Mother,Lucas,M,2
+Irene,Goh,eexcelirene@gmail.com,Mother,Jarren,M,2
+Irene,Goh,eexcelirene@gmail.com,Mother,Ayden,M,1
+Carene,Ker,agape97@gmail.com,Mother,Charis ,F,6
+grace,loh,gracekellieflorist@yahoo.com.sg,Mother,david,M,3
+Carene,Ker,agape97@gmail.com,Mother,Daris,F,5
+Carene,Ker,agape97@gmail.com,Mother,Claris,F,3
+christine,tan,terrytan@gmail.com,Mother,branson,M,4
+Shao Xian,Chua,chua.wan.er@gmail.com,Mother,Yao Cong,M,5
+Kelvin,Lau,klau68@gmail.com,Father,Jie Yan,M,4
+Liya,Wu,wujinfeng620@gmail.com,Mother,Chang Cheng,M,4
+Lydia,Chua,siangloo@yahoo.com,Mother,Erlene,F,5
+Edmund,Chua,siangloo@yahoo.com,Father,Ernest,M,1
+hwee huang,tan,te_sndy@yahoo.com.sg,Mother,weiheng,M,3
+Alicia,gwee,aliciatan29@yahoo.com.sg,Mother,gigi,F,1
+Egammai,Pichappan,yegu75@hotmail.com,Mother,Valliammai,F,6
+ELin ,Lin,elinlye@yahoo.com.sg,Mother,Jamie,F,2
+Kok Liang,Chai,chaiwiexin@live.com,Father,Wei Xin,F,6
+May Lin,Lee,maylinw@yahoo.com,Mother,Chi Cheng,M,3
+Ramlah,sharom,ramlah@gmail.com,Mother,hidayat,M,3
+ramlah,sharom,nuraidinil@hotmail.com,Mother,nur,M,5
+ramlah,sharom,ramlah@gmail.com,Mother,natasha,F,2
+georgina,chan,georgina41@hotmail.com,Mother,ayumi,F,2
+lay,ang,bb6970@yahoo.com,Mother,rui,M,5
+Gladys,Toh,gladys_ang76@yahoo.com.sg,Mother,Keow Woon,F,1
+Normah,abdul razak,jaffar.rose@yahoo.com.sg,Mother,abdul raziq,M,2
+Irene,Ang,irenepang3g@yahoo.com.sg,Mother,Amanda,F,3
+Irene,Ang,irenepang3g@yahoo.com.sg,Mother,Amelia,F,1
+Janice,Chua,liewwf1712@gmail.com,Mother,Valerynn,F,6
+Serene,Lim,ken583@singnet.com.sg,Mother,Keith,M,6
+Derence,Teo,derence.teo@allianz.com.sg,Father,Lance,M,6
+Kah Yin,Tai,kahyin_goh@yahoo.com,Mother,Kenneth,M,2
+Kah Yin,Tai,kahyin_goh@yahoo.com,Mother,Eunice,F,6
+Julie,Choo,julie_wong88@yahoo.com.sg,Mother,Nelson,M,5
+Julie,Choo,julie_wong88@yahoo.com.sg,Mother,Clarence,M,1
+lydia,ling,lydiawang00@gmail.com,Mother,cheri,F,2
+Serene,Ho,serene8900@yahoo.com.sg,Mother,Jolyn ,F,5
+Serene,Ho,serene8900@yahoo.com.sg,Mother,Eelyn,F,2
+shaner,meng,pattyhong32@gmail.com,Mother,chen,F,2
+Keng How,Tan,kenghowtan@yahoo.com.sg,Father,Guan Ming,M,5
+yeo cheng,woo,oycmay@yahoo.com.sg,Mother,hui xuan,F,5
+may,woo,oycmay@yahoo.com.sg,Mother,zhixuan,M,2
+swee lim,goh,sweelim_ang@yahoo.com.sg,Mother,kai feng,M,4
+Christopher,Tan,tanec69@gmail.com,Father,Timothy,M,5
+Noor,Saiful,noor_oi@hotmail.com,Mother,Muhd Aqil,M,4
+Adale,Wee,adalelim@gmail.com,Mother,Ethan,M,1
+Lee ,Ming Wei,music317@live.com,Mother,Lee ,M,5
+Noor,Saiful,noor_oi@hotmail.com,Mother,Ammar Yassir,M,2
+Jocelyn,Lau,Snowy_Lau@yahoo.com.sg,Mother,Snowy,F,3
+Alvin,Ong,nimitz68@starhub.net.sg,Father,Javen,M,1
+Alvin,Ong,nimitz687@starhub.net.sg,Father,Kristen,F,2
+Kalsum,Ahmad,Kalsum@hotmail.com.sg,Mother,Syed Ahmad,M,3
+Kalsum,Ibrah,kalsumumar@hotmail.com.sg,Mother,Sharifah Ibrah,F,1
+kalsu,OIzzah,Kalsumumar@otmail.com.sg,Mother,Sharifah Izzah,F,1
+chuah chai hwa,tan,catherine31@ymail.com,Mother,sally,F,4
+Corinne,Fong,corinne.chuah@gmail.com,Mother,Jamie,F,2
+Corinne,Fong,corinne.chuah@gmail.com,Mother,Gavin,M,4
+ML,Leong,mlchay2002@yahoo.com.sg,Mother,Terynn,F,3
+Lily,Tan,rilytan@singnet.com.sg,Mother,"Mun Jun, Geremia",M,1
+elaine,chong,elaine_tey@yahoo.com.sg,Mother,elger,M,1
+elaine,chong,elaine_tey@yahoo.com.sg,Mother,edric,M,3
+H S,Teo,honghsc@sph.com.sg,Mother,Kae Yn,F,1
+Lisa,Loo,lisateols@gmail.com,Mother,Chloe,F,2
+Lisa,Loo,lisateols@gmail.com,Mother,Crystal,F,5
+karen,ong,eyyan@hotmail.com,Mother,sheryl,F,1
+Victor,Lim,victor.lim@hp.com,Father,Ashley,F,2
+Margret,Chua,margretsteward@gmail.com,Mother,Candy,F,4
+Lauren,khee,laurenteh@gmail.com,Mother,richard,M,4
+Vivian,Soh,viviansml@hotmail.com,Mother,WeI Ting Michelle,F,3
+Vivian,soh,viviansml@hotmail.com,Mother,daniel,M,5
+eric,lim,kaixcom@yahoo.com.sg,Father,kayzer,M,4
+Serena,Senivasan,serena_guna@hotmail.com,Mother,Akilan,M,1
+Jin Yian,Poh,ongjinyian@yahoo.com.sg,Mother,Jareth,M,2
+gayathri,selvarajoo,sankritty@gmail.com,Mother,santhosh,M,2
+gayathri,serlvarajoo,sankritty@gmail.com,Mother,krithika,F,6
+Phremalata,Somasundram Pillai,phremalata@hotmail.com,Mother,Udhayamallini ,F,4
+edmund,tan,etpy2001@gmail.com,Father,caroline,F,6
+Fanny,Parvathi Kumar,fannyoeils@yahoo.com,Mother,Lalita,F,2
+Akvinder,Parmar,12palmroad@gmail.com,Mother,Jay,M,5
+Akvinder,Parmar,12palmroad@gmail.com,Mother,Nikhil,M,1
+Akvinder,Parmar,12palmroad@gmail.com,Mother,Nikita,F,1
+Alice,wood,hitsugaya@live.com.sg,Mother,jinjun,M,6
+Michelle,Lau,michellelimf@yahoo.com.sg,Mother,Annie,F,2
+Michelle,Lau,michellelimf@yahoo.com.sg,Mother,Zoe,F,5
+Leena Ganesan,Jaga,lee_g2k@yahoo.com,Mother,J.Pranav,M,1
+sivagami,kasi,sivagamikasi@hotmail.com,Mother,praveen,M,1
+Serene,kwan,kwanslim@singnet..com.sg,Mother,clement,M,1
+Lim,kwan,kwanslim@singnet.com.sg,Mother,clare,F,3
+nidhi,srikanth,nidhisrikanth@hotmail.com,Mother,lokav,M,2
+joan,Balduman,jbalduman80@yahoo.com,Mother,Daffodil Ann Marie,F,2
+Han Boon,Lim,limhb99@gmail.com,Father,Xavier,M,3
+Elsa,Ng,elsayeo@yahoo.com,Mother,Edus,M,1
+jan,ong,okghjf@gmail.com,Mother,yanlin,F,3
+Cherie,Chan,zihui21@yahoo.com,Mother,Yi Jia,F,4
+poh eng,koo,poh_e@hotmail.com,Mother,chuan ren,M,5
+poh eng,koo,poh_e@hotmail.com,Mother,yu fang,F,4
+Chin,Quan Zhi,knchin@singnet.com.sg,Father,Chin,M,6
+Ang,Naing,joannang@singnet.com.sg,Mother,Eileen,F,1
+Serene,Mochiyama,serenemochi@yahoo.com,Mother,Hoshika,F,4
+Angela,Ng,angelalksim@gmail.com,Mother,Alexis,F,1
+vivky,lim,vivkys@yahoo.com,Mother,ashley,F,4
+sushmita,shrivastava,sushmita_das@kobian.com,Mother,ira,F,4
+Andy,Yang,ayeo99@hotmail.com,Father,Jinrong,F,6
+Kanya,sivakumaran,r_kanya@hotmail.com,Mother,Avyakth,M,2
+Kim Heok,Lim,kimpeh88@gmail.com,Mother,Jia Yi,F,6
+Andrew,Ng,andng17@gmail.com,Father,Phoebe,F,2
+Kim Heok,Lim,kimpeh88@gmail.com,Mother,Jia Hui,F,3
+Kim Heok,Lim,kimpeh88@gmail.com,Mother,Ding Yang ,M,4
+Kar Seok,Tan,kltan30@singnet.com.sg,Guardian,Wei Jie,M,4
+Yali,Tan,veronhch@hotmail.com,Mother,Megan,F,4
+karbuay,rahardja,tankarbuay@gmail.com,Mother,lucas,M,3
+Mun Joo,Lee,munjoo@chevron.com,Mother,Xuan,F,4
+james,tan,jamestan@gmail.com,Father,gregory,F,6
+Kenneth,Tong,kenwong@gmail.com,Father,Charlene,F,5
+jane,leong,jane.tan@daimler.com,Mother,darel,M,1
+Mae,Loo,mae.ngh@gmail.com,Mother,Heidi,F,2
+Meng Keong,Lim,elacemk@gmail.com,Father,Zhiyu,F,1
+Meng Keong,Lim,elacemk@gmail.com,Father,Xuanying,F,4
+lynnette,yeo,lynnettes@gmail.com,Mother,janetta,F,3
+Michele ,Lau,couzzie75@yahoo.com.sg,Mother,Ignatius,M,1
+Persis,Ho,too7rh@163.com,Mother, Hui Xin,F,5
+swee yah,kho,stsh608@singnet.com.sg,Mother,sock hui,F,4
+Pauline ,tay,paulinetaylum@yahoo.com.sg,Mother,julian,M,4
+Andrew,tan,Andrew_tan@ite.edu.sg,Father,emannuel,M,4
+roland,lim,xiang99l@gmail.com,Father,ding xiang,M,6
+Pauline,Tay,paulinetaylum@yahoo.com.sg,Mother,jacob,M,3
+Andrew,tan,Andrew_tan@ite.edu.sg,Father,elisha,M,2
+Kay Hua,Ong,ivanongkayhua@yahoo.com.sg,Father,Jing Jie,M,3
+sl,wong,slejes@yahoo.com.sg,Mother,ee jiun,M,4
+sl,wong,slejes@yahoo.com.sg,Mother,ee shawn,M,2
+angelina,tiang,terincandy@yahoo.com.sg,Mother,jolyn,F,2
+Angelina,tiang,terincandy@yahoo.com.sg,Mother,zachary,M,1
+Siew Bee,Chong,efps10.5fkaixin@gmail.com,Mother,Kai Xin,F,6
+joshua,tay,jtay25@gmail.com,Father,jeremy,M,5
+Boon Keat,Tan,tbk4971@yahoo.co.jp,Father,Yi Kai,M,2
+ivy ,xin yi,siewyuanlim@yahoo.com,Mother,ong ,F,4
+ivy,ong,xyi27@yahoo.com.sg,Mother,xin hui,F,2
+Lay Meng,Ang,shaoweing35@gmail.com,Mother,Shao Wei,M,3
+Elisa,Chen,Elisa.ktan@gmail.com,Mother,Jonathan,M,1
+Lay Meng,Ang,shaoweing35@gmail.com,Mother,Shao Kai,M,2
+Yoke San,Lee,vanessa_linys@yahoo.com.sg,Mother,Daryl,M,4
+Sheau Ping,Yap,yapliting2003@gmail.com,Mother,Li Ting,F,2
+Dennis,Lim,dennislimch@gmail.com,Father,Natalie,F,3
+Josephine,Lim,josephinelyh@gmail.com,Mother,Hong Wei,M,3
+Siok Eng,ma,lim_siok_eng@yahoo.com,Mother,olivia ,F,5
+siok eng,ma,lim_siok_eng@yahoo.com,Mother,benjamin,M,3
+Hui xin,Ng,Hui_xinng@yahoo.com.sg,Mother,Claudia,F,4
+Yvonne,Sim,yvonnegohbb@yahoo.com.sg,Mother,Alicia,F,5
+Grace,sim,gracegpteo@gmail.com,Mother,Megan,F,5
+grace,sim,gracegpteo@gmail.com,Mother,Dianne,F,3
+Seok Tuan,Tan,tan_wei_jun@hotmail.com,Mother,Wei Jun,M,6
+Wee Keng,Lui,tweekeng@gmail.com,Mother,Zhao Xian,M,1
+Susan,Chua,susan_hear@yahoo.com.sg,Mother,Faith,F,1
+syed,mohammed,mjjasim@gmail.com,Mother,jasim,M,6
+syed,mazwin,mjjasim@gmail.com,Mother,mazwin,F,2
+syed,syed,mjjasim@gmail.com,Mother,syed,M,1
+fairoza,roshan,fairoza_banu@yahoo.com.sg,Mother,mohamad,M,3
+sayd,shanaz,sayd_jas@yahoo.com.sg,Mother,afreen,F,1
+chiew kim,Aw,alencia@gmail.com,Father,Hong Kai,M,2
+Doris,Leow,happy3live@yahoo.com.sg,Mother,Jun Ying,M,5
+emily,Pang,mohmengchoo@yahoo.com.sg,Mother,Justin,M,5
+chiew kim,aw,alencia@gmail.com,Father,kai en,F,1
+Mohan,Ravuru,mohanravuru@gmail.com,Father,Harita,F,2
+Mohan,Ravuru,mohanravuru@gmail.com,Father,Bhumika,F,4
+En hui,Sim,Hhen@yahoo.com.sg,Mother,Jasmine,F,5
+Lei Erl,Ong,lei_erl@yahoo.com,Mother,Thaddeus,M,2
+Lei Erl,Ong,lei_erl@gmail.com,Mother,Renee,F,3
+chew yong,Phoon,lowkaren36@yahoo.com.sg,Mother,PeiYing,F,3
+Ban hong,Tan,banhongtan@mconline.sg,Father,Nicole ,F,1
+Khairunnisa,Abdullah,khairunnisa_s@hotmail.com,Guardian,Iszreen Nerina,F,2
+suat hui,Ng,aangie_ng@yahoo.com,Mother,wee li,F,1
+Serene,Ng,sereneglc@hotmail.com,Mother,Nicholas,M,1
+Serene,Ng,sereneglc@hotmail.com,Mother,Elysia,F,3
+Suat Hui,Ng,aangie_ng@yahoo.com,Mother,Wee Han,M,5
+Vinod,vinod,vinod.tanwani@gmail.com,Father,keya,F,2
+Doreen,Lee,dgohyl@hotmail.com,Mother,Taddeus,M,6
+Francesca,liu,k3fran@hotmail.com,Mother,kylia jie ting,F,3
+Fazilah,Norjula,dil68@hotmail.com,Mother,Muhammad Azfar,M,2
+susan,cheah,ebonchua@hotmail.com,Mother,joey,F,1
+susan,cheah,ebonchua@hotmail.com,Mother,dion,M,5
+Shirley,Wong,wfchoo_73@hotmail.com,Mother,Shermaine,F,2
+Wendy,Chua,wdtan2002@yahoo.com,Mother,Belinda,F,2
+Betty,Lai,bettysih88@gmail.com,Mother,Chun Hong James,M,2
+dawn,ng,wonderfullymade@hotmail.com,Mother,clement,M,2
+dawn,Ng,wonderfullymade@hotmail.com,Mother,Kynda,F,2
+Hamidah,Joe Harie,hamidah_mohamed@hotmail.com,Mother,Jazleen Nur Syafawani,F,5
+Adeline,Ter,sunflowerpiyopiyo@gmail.com,Mother,Patricia,F,5
+Hamidah,Joe Harie,hamidah_mohamed@hotmail.com,Mother,Harie Hafeez Khairuddin,M,2
+zhanrui,lim,zr_dictionary1@hotmail.com,Guardian,yun hui,F,6
+Hamidah,Joe Harie,hamidah_mohamed@hotmail.com,Mother,Harie Hadif Khairuddin,M,3
+zhan rui,lim,zr_dictionary1@hotmail.com,Guardian,zhan li,M,6
+Adeline,ter,sunflowerpiyopiyo@gmail.com,Mother,celestina,F,4
+valerie ,koh,va1erie__@live.com,Guardian,thana,F,5
+Hamidah,Hashim,hamidah_mohamed@hotmail.com,Guardian,Nayli Haziqah,F,6
+Lay Chin,Ho,lclow8@yahoo.com,Mother,Kai Ting,F,2
+Sylvin,Lau,slcclhl@yahoo.com,Mother,Yi Lin,F,1
+Abdul,Abdul Rahim,heyrahim@yahoo.com,Father,Saajid Rehman,M,1
+Nicholas,tan,tansuanc@murata.com.sg,Father,Marcus,M,3
+Theresa,chia,ting.theresa@yahoo.com,Mother,Timothy,M,1
+Theresa,Chia,ting.theresa@yahoo.com,Mother,Aloysius,M,6
+Frankie,Lee,Nutshe77@singnet.com.sg,Father,JunNgai,M,2
+jasper,chua,jaschua1998@hotmail.com,Guardian,javier ,M,4
+Grace,Foo,grace_sim2004@yahoo.com,Mother,Jerek,M,2
+Nirmala,Md,skywhite_93@hotmail.com,Mother,Sharukh,M,4
+Bee Ling,tan,see.beeling@gmail.com,Mother,sze jin,F,2
+danny,quah,Danny.Quah@hp.com,Father,samantha,F,6
+Danny,quah,Danny.Quah@hp.com,Father,kenneth,M,4
+Hong Ngoh,Tan,tanhongngoh@gmail.com,Mother,Daniel,M,4
+Bee Ling,Tan,see.beeling@gmail.com,Mother,Sze Ying,F,4
+jenny,lee,jen2y2@hotmail.com,Mother,ian,M,1
+hema,Insyira,hema_1167@yahoo.com.sg,Mother,Hana,F,5
+wei choo,chien,chng.clara@brc.com.sg,Mother,shi yun,F,3
+wei choo,chien,chng.clara@brc.com.sg,Mother,jing wei,M,5
+James,tan,jamesjohn@hotmail.com,Father,peter,M,6
+Lirong,Rao,garyrao@singnet.com.sg,Father,Jun Song,M,1
+Lirong ,rao,garyrao@singnet.com.sg,Father,Haiting,F,5
+Angelia,Ng,skyreloh@yahoo.com,Mother,Jennelle ,F,5
+Anglia,Ng,skyreloh@yahoo.com,Mother,Joshua,M,4
+Zhao Xiang,Lam,ryan_giggs_11_8@hotmail.com,Guardian,Janice,F,5
+Jessie,Chia,piuschia@hotmail.com,Mother,Pius ,M,1
+xiao,koh,xiaowei_90@yahoo.com,Guardian,liang jun,M,5
+Chui Lan,Goh,gohchuilan@yahoo.com.sg,Mother,Charmian,F,5
+Karen,NEO,beekian2002@yahoo.com.sg,Mother,Hui Wen,F,2
+Sattara,Khan,taragul@hotmail.com,Mother,Yusoff Jalal,M,5
+Doreen,Tan,jackalt_33@yahoo.com.sg,Mother,Valerie,F,4
+Hwee lin,Khoo,Hweelin.yeo@live.com,Mother,Jaslyn,F,5
+Aileen,Teo,Aileen.tanhg@gmail.com,Mother,Apple,F,1
+rachel,ng,chrachel28@gmail.com,Mother,yi qi,F,5
+Lay Ching,Chang,kathtlc@yahoo.com.sg,Mother,Wei An,M,2
+Lay Ching,Chang,kathtlc@yahoo.com.sg,Mother,Hui Xian,F,6
+Stephanie,Lee,Steph0824@hotmail.com,Mother,Isaac,M,3
+Jessica,Tjew,jessicayipsy@yahoo.com.sg,Mother,Marcus ,M,3
+Boot Hong,Lim,888guppies@gmail.com,Mother,Qing Fu,M,5
+Shahid,Hassan,sayansg@singnet.com,Father,Sayan,M,6
+Richard,Tan,richard3228@gmail.com,Father,Wildon,M,5
+Richard,Tan,richard3228@gmail.com,Father,Waynlyn,F,3
+Fadilah,Anwar,fadilah@rocketmail.com,Mother,Abdul Hadi,M,4
+Yi Ming,Gani Wong,wlq17@yahoo.com.sg,Mother,Javier,M,3
+hameetha,mohd,adamhameetha@hotmail.com,Mother,riaz,M,4
+johnson, hiou,johnson_hiou@yahoo.com.sg,Father,janelle,F,3
+Seow Chee,Chin,cheynn@gmail.com,Mother,Sze Yi,F,1
+Nam Ngoh,Ong,ko_namngoh@yahoo.com.sg,Mother,Isaac,M,3
+sandy,Ting,sandyongkc@live.com,Mother,Jeremy,M,2
+sandy,ting,sandyongkc@live.com,Mother,don,M,3
+Eileen,Koh,eileen_ng66@hotmail.com,Mother,Jaymeson,M,5
+Eileen,Ng,eileen_ng66@hotmail.com,Guardian,Ivan,M,3
+Eileen,Ng,eileen_ng66@hotmail.com,Guardian,Justin,M,2
+wendy,tan,wen-mag@hotmail.com,Mother,magnar,M,3
+Linda,Su,lindalimly@yahoo.com.sg,Mother,Alex,M,5
+Linda,Su,lindalimly@yahoo.com.sg,Mother,Wei Chen,F,2
+JINGFENG,sun,JINGFENG_88@HOTMAIL.COM,Guardian,boxuan mike,M,3
+herman ,lim,hermanloh@gmail.com,Guardian,hao kiat brandon,M,6
+pang,cheong,jane.foo@live.com,Mother,fuyu,M,3
+herman,joon,hermanloh@gmail.com,Guardian,young,M,6
+fang ying,lim,fangying.y@live.com.sg,Guardian,samantha,F,4
+Richard,sim,richardsim@gmail.com,Father,dominic,M,4
+Richard,Sim,richardsim@gmail.com,Father,Damien,M,1
+Sam,Law,samwong78@aol.com,Mother,Isaac,M,3
+Daphnie,chen,samwong78@aol.com,Mother,qingru,F,5
+Sam,Chen,samwong@aol.com,Mother,Joey,F,6
+LiGeok,Lim,ligeok38@gmail.com,Mother,YanYi,F,5
+Daphnie,chen,samwong78@aol.com,Mother,qingen,F,1
+Mohamed Imran,Mohamed Imran,racez75@yahoo.com,Father,Muhd Izzat Hadi,M,1
+cheong,ng,ngchengboon@hotmail.com,Father,xue lin,F,3
+cheong boon,ng,ngcheongboon@hotmail.com,Father,xue ying,F,6
+Taufik,Taufik,taufik@maybank.com.sg,Father,Akid,M,3
+Masturah,Anizan,masadc@gmail.com,Mother,Qamal Qhairi,M,3
+richard,Ng ,shalinng@yahoo.com,Father,Shalin,F,2
+Cheng Yee,Baey,chengyee12@gmail.com,Mother,Eliana,F,5
+Bernadette,Koo,tay_siew_lan_bernadette@moe.edu.sg,Mother,Isabel,F,1
+Kwang Pheng,Ang,angkpeng@singnet.com.sg,Father,Wee Suan,M,3
+Kwang Pheng,Ang,angkpeng@singnet.com.sg,Father,Jiaying,F,1
+Thomas,Choo,tchooks@yahoo.com.sg,Father,Darren,M,3
+seng lin,pang,pangsl@gmail.com,Father,yu rui,M,5
+seng lin,pang,pangsl@gmail.com,Father,ling qi,F,3
+huey ling,loke,hlshu@alumni.nus.edu.sg,Mother,ethan,M,1
+huey ling,Loke,hlshu@alumni.nus.edu.sg,Mother,Jaren,M,4
+Florence,Chng,chngsm@yahoo.com,Mother,Joey,F,3
+Yoke Lim,Koh,lawyokelim@yahoo.com,Mother,Wei Jie,F,5
+Yoke Lim,Koh,lawyokelim@yahoo.com,Mother,Ren Hao,M,2
+Cynthia,tan,gingergal_72@yahoo.com.sg,Mother,Kinski,F,3
+Florence,Chng,chngsm@yahoo.com,Mother,Jodi,F,1
+Yap Lang ,Sng,sng_weihock@hotmail.com,Mother,Isabelle,F,6
+Lynn ,Loh,lbl_lynn@yahoo.com.sg,Mother,Giggs,M,3
+Yap Lang,Sng,sng_weihock@hotmail.com,Mother,Wei jie,M,3
+Timothy,Toh,Timtim-toh@yahoo.com.sg,Father,Jinger,F,2
+joyce,ng,joycesbk@yahoo.com,Mother,angelina,F,2
+pang,cheong,jane.com@live.com,Mother,cheng,M,2
+mohamed,danish,fadilbk@singnet.com.sg,Father,muhammad,M,2
+TeeSeng,Tan,weeming_2000@hotmail.com,Father,Weeming,M,5
+kee sian,tang,tiokeesian@yahoo.com.sg,Mother,grace,F,3
+Jean,ANG,askimo7@yahoo.com,Mother,Shermaine,F,5
+Jean,ANG,askimo7@yahoo.com,Mother,Shermern,M,4
+Eunice,ANG,askimo7@yahoo.com,Mother,ZynYee,F,4
+olivia,ho,olivia@starhub.net.sg,Mother,janelle,F,5
+swee mee,ting,jackiequeksm@gmail.com,Mother,yi herng,M,4
+swee mee,Ting,jackiequeksm@gmail.com,Mother,Yi Le,F,6
+Mary,Wong,trsric@gmail.com,Mother,Richelle,F,1
+Suan,Tan,jtansuan@gmail.com,Mother,Lilin,F,5
+Bernard,Ong,bernardong1@gmail.com,Father,Gareth,M,2
+jamaludin,jamaludin,adilahjamal@hotmail.com,Father,nur adilah,F,3
+Angeline ,Tan,beautycheang@yahoo.com,Mother,Daniel,M,3
+Sook Keng,Yong,jocelyntang@rocketmail.com,Mother,Yi Xuan,F,6
+Sook Keng,yong,jocelyntang@rocketmail.com,Mother,zheng yu,M,4
+chwan tze,CHENG,chengjiayu14@yahoo.com,Father,jiayu,M,2
+Woon Gin,Lam,woongin_lam@yahoo.com.sg,Mother,Yun Hui,F,1
+chwan tze,cheng,chengjiayu14@yahoo.com,Father,xinlin,F,4
+SP,Teo,spchua1@yahoo.com,Mother,Xin Yu,F,3
+SP,Teo,spchua1@yahoo.com,Mother,Xin Rong,F,1
+jyh shyong,tang,emiteo@gmail.com,Father,kit yung,M,4
+jyh shyong,tang,emiteo@gmail.com,Father,jiunn mun,M,1
+Chin Heng,chua,gwshark42@yahoo.com,Father,jingyun,F,1
+glenda,yap,glenpal@gmail.com,Mother,elmer ,M,1
+Li Siang,Yeo,tanlisiang@yahoo.com.sg,Mother,Ker Yin,F,6
+Li Siang,Yeo,tanlisiang@yahoo.com.sg,Mother,Jun Wei,M,1
+CK,Lau,cheekian_lau@yahoo.com.sg,Father,Yan Hui,M,1
+Chantal,Koh,diamond58@pacific.net.sg,Mother,Zhiyu,F,1
+Sun,Arum,sun_singapore@yahoo.com,Mother,Sid,M,1
+haryatie,roslan,haryatieanbiar@yahoo.com.sg,Mother,sharifah redhwa,F,4
+joy ,koh,khoojoy@hotmail.com,Mother,justin,M,1
+Masliah,Elmy,elly_emme@gmail.com,Mother,Ellia,F,1
+Dasimah,Salleh,dasimah_mohamed_daud@moe.edu.sg,Mother,Hanna,F,1
+Dasimah,Salleh,dasimah_mohamed_daud@moe.edu.sg,Mother,Aqil,M,2
+Darren ,Tong,Darrenlim@gmail.com,Father,Gabriel,M,5
+wendy,goh,wendygoh52@yahoo.com,Mother,isaac,M,4
+wendy,goh,wendygoh52@yahoo.com,Mother,josiah,M,1
+Leo,Lim,leo.nardo@gmail.com,Guardian,Megan,F,5
+wee lee,wong,weelee_65@yahoo.com,Mother,zheng da,M,6
+jon lin,tan,tanjl@hci.edu.sg,Mother,szeing,F,2
+jon lin,tan,tanjl@hci.edu.sg,Mother,szeyoung,M,4
+Ken ,Tan,babymeta@yahoo.com.sg,Father,Skyler ,M,2
+Ken,Tan,babymeta@yahoo.com.sg,Father,Destiny,F,1
+nikolas,koh,nikolasleetienloong@gmail.com,Guardian,yao zhang,M,1
+APRIL,CHEW,aapohhong@gmail.com,Mother,ARTHUR,M,1
+Gladys,Ong,9lady5.c@gmail.com,Mother,Eunice,F,4
+Gladys,Ong,9lady5.c@gmail.com,Mother,Elkan,M,3
+chong,ong,chongchuifoong@hotmail.com,Mother,ong,M,4
+suat hui,ng,aangie_ng@yahoo.com,Mother,wee lyn,F,1
+kelvan,ong,kelvan_janet@yahoo.com.sg,Father,yanni,F,5
+Sharon,Lau,sharonlau62@gmail.com,Mother,Clara,F,6
+Rajeswari,Warrier,rr0274@hotmail.com,Mother,Manish ,M,3
+Nupur,Gupta,nupurgupta15@gmail.com,Guardian,Alisha,F,5
+engleok,chng,engleokchng@mconline.sg,Father,engleok,M,5
+Freddie,Lee,nexusbyte@yahoo.com,Father,Hazel,F,1
+Cherine,Chua,cdrabit@yahoo.com,Mother,Kendra,F,4
+stephen,Tan,stephen788@yahoo.com,Father,catherine,F,4
+Hock Chye,Sng,weihock@hotmail.com,Father,Isabelle,F,6
+James,Loh,jl8250@hotmail.com,Father,Jerlyn,M,5
+Shiao Lea,Soh ,shiaolea@gmail.com,Mother,Yu Xi,F,3
+cheng,yiting,chengxuehong@gmail.com,Mother,cheng,F,5
+Ray,Yao,yaorui@mconline.sg,Father,Ray,M,6
+Billy ,Ho,billyhhm@yahoo.com.sg,Father,Eric ,M,6
+Dorothy,Ngo,dots_ngo@yahoo.com,Mother,Dots,F,4
+Maria Vida ,Sawit,mariavida07@gmail.com,Mother,Anna Rica,F,3
+Maria Vida,Sawit,mariavida07@gmail.com,Mother,Paolo,M,5
+Fei Fen,Ng,ngleeff@hotmail.com,Mother,Rui Hao,M,2
+Fei Fen,Ng,ngleeff@hotmail.com,Mother,Jet Yee,F,5
+Chinnaraju,Sudiksaa,senthilvelanc@gmail.com,Father,Senthilvelan,F,2
+TOM,TANG,LOOCHUJUN@HOTMAIL.COM,Father,SYLVESTER,M,1
+tom ,tang,sylvestang9@gmail.com,Mother,isabelle,F,1
+SYLVESTER,TANG,LEONARDDANIEL208@GMAIL.COM,Father,SYLVESTER ,M,5
+Siew Eng,Ng,segoh1970@hotmail.com,Mother,Jonathan,M,5
+Wolfgang,Ranner,ranner_wolfgang@hotmail.com,Father,Ailing,F,5
+Wolfgang,Ranner,ranner_wolfgang@hotmail.com,Father,Liling,F,3
+Wolfgang,Ranner,ranner_wolfgang@hotmail.com,Father,Kaiming,M,1
+Sharifah,Azman,sharz09@yahoo.com,Mother,Aariz,M,1
+Azman Nirwan,Azman,azen19@mac.com,Father,Aaqilah,F,3
+aslina,saharuddin,asdin5869@yahoo.com.sg,Mother,saiful ilyas,M,6
+JULIE,LAI,MLJLAI@SINGNET.COM.SG,Mother,MUN WENG ETHAN,M,1
+JULIE,LAI,MLJLAI@SINGNET.COM.SG,Mother,MUN TSANG DANIEL,M,5
+Amy,Sow,amytan13@yahoo.com,Mother,Chloe,F,1
+Gail ,Tan,e_meelsg@yahoo.com.sg,Mother,Estelle,F,4
+Bee Hui,Tang,tanbhsg@yahoo.com.sg,Mother,Cheng Yin,F,1
+Anebarassane ,Anebarassane ,Anbuaa@gmail.com,Father,Archana,F,3
+Alex,Low,lyj898@gmail.com,Father,Damien,M,1
+ruth,tan,ruth@jrimagexpress.com,Mother,rachel,F,4
+Siew Geok,Ng,ag_ksk@yahoo.com.sg,Mother,Ken,M,2
+Soh Hwa,er ,catgoh03@yahoo.com,Mother,wen han,M,5
+Johnny,Chia,Johnnychia@pacific.net.sg,Father,Keane,M,4
+Rachel,Low,rchl_eng@yahoo.com.sg,Mother,Denzel,M,5
+Ling Ling Dorinda,Phuah,Dorindalim@yahoo.com.sg,Mother,Hui Ru Nicole,F,1
+Vincent,Chiam,chiam.vincent@gmail.com,Father,Aden,M,2
+Linda,Yiew,peizhi@hotmail.com,Mother,Ryan,M,1
+Linda,Yiew,peizhi@hotmail.com,Mother,Rachel,F,2
+Ling Ling Dorinda,Phuah,DOrindalim@yahoo.com.sg,Mother,Li Si Sherlene,F,5
+Mee Lee,Ong,shirley_lml@yahoo.com.sg,Mother,Chang Hui,M,5
+B,Ong,b@fruitloop.org,Mother,Joel,M,2
+Juliana,Koh,juleekoh@gmail.com,Mother,Genevieve,F,2
+Adam ,Koh,adamkohtc@gmail.com,Father,Bernadette,F,1
+chin chuan,ng,ngcncn@gmail.com,Father,zhi ting,F,3
+Hayati,Jackson,hihiadam@gmail.com,Mother,Adam,M,5
+george,lim,limgeorge@gmail.com,Father,angie,F,3
+george,lim,limgeorge@gmail.com,Father,aaron,M,4
+Madras,loko,mksrikanth@hotmail.com,Father,srikanth,M,2
+Shakeela,Suthakar,priskillal@yahoo.com.sg,Mother,Shiny,F,6
+Shakeela,Suthakar,priskillal@yahoo.com.sg,Mother,Shirley,F,2
+fie ling,ong,sandra.tjia@gmail.com,Mother,ansel,M,2
+timer,times,timer@hotmail.com,Father,times,M,1
+Bee Lin,Ong,blteo71@hotmail.com,Mother,Yiren,M,4
+Benedict,Chieng,mjbengx@gmail.com,Guardian,Anastasia Mary,F,1
+Fares,Aljunied,afares@singnet.com.sg,Father,Faiq,M,2
+Kyaw,Kyaw,kyawkyaw@mconline.sg,Guardian,Kyaw,M,1
+Joyce,Young,joilesg@yahoo.com.sg,Mother,Yooga,F,1
+Eve,Yeo,ansertnm@singnet.com.sg,Mother,Gynn,M,4
+Justin,YEO,yeock@singnet.com.sg,Father,BREANNA,F,1
+Dewi,Jim,dewichendrawaty@hotmail.com,Mother,Daniel,M,1
+Charles,Heng,diven1@singnet.com.sg,Father,Matthew,M,1
+Shirley,Villanueva,chichic_cute@yahoo.com.ph,Mother,Ian Andrew,M,1
+Siew Ping,Chew,chung_siewping@yahoo.com.sg,Mother,Yu En,F,1
+rosalind,wong,rosalindche@gmail.com,Mother,Joel,M,5
+Wendy ,Ho,shayann@galileanboy.com,Mother,Shayann ,F,3
+engleok,chng,engleokchng@mconline.sg,Father,minru,F,5
+Kelly,Neo,example_word1998@hotmail.com,Mother,Juvenia,F,6
+Lee Ser,lim,limleeser@gmail.com,Mother,sherri,F,1
+Lee Ser,lim,limleeser@gmail.com,Mother,Darel,M,5
+normala,nurhizwan,jason@brain.com.sg,Mother,adrial,M,6
+Alvonne,Winged,AlvoneWingedSr@alvonne.com,Father,Alvonne,F,1
+Soon Huat,Liu,hentup8383@hotmail.com,Father,Janjira,F,5
+Patrick,Lim,pat_limyk68@singnet.com.sg,Father,Ethan,M,4
+Wen song,Liu,adrial99@hotmail.com,Father,Henry,M,6
+shit yee,wong,sohshityee@yahoo.com.sg,Mother,wee keong,M,5
+david,ting,darrenting1@hotmail.com,Father,darren,M,3
+Chai Choon,Koh,cckoh@singnet.com.sg,Father,Jing Yan,M,4
+Loo,HO JUN WEI,kitty_lle@yahoo.com,Mother,HO,M,5
+Kim ,Chia,ajihonda@y7mail.com,Mother,Amanda,F,4
