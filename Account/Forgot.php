@@ -24,16 +24,11 @@ function Page_fDo(							//	(*) data to return in response
 		// check if username exists
 		$vRows = Sys_fFetchRows(Sys_fQuery("SELECT Id, Username, Email
 			FROM tblUser
-				WHERE Username = '" . $vParams["Username"] . "'"));
+				WHERE Username = '" . $vParams["Username"] . "' And Role != 2"));
 		if (count($vRows) == 0)
-			return array("Success"=>0, "Err"=>"Username is not found.");
+			return array("Success"=>0, "Err"=>"Parent Username is not found.");
 		$vUserId = $vRows[0]["Id"];
 		$vUsername = $vRows[0]["Username"];
-		if (strlen($vRows[0]["Email"]) == 0)
-			// no child email, use parent's email
-			$vRows = Sys_fFetchRows(Sys_fQuery("SELECT Email 
-				FROM tblParent
-					WHERE ChildId = " . $vUserId));
 		$vEmail = $vRows[0]["Email"];
 		$vPasswd = fRandPasswd(10);
 		Sys_fQuery("UPDATE tblUser
@@ -48,14 +43,7 @@ function Page_fDo(							//	(*) data to return in response
 		$vRows = Sys_fFetchRows(Sys_fQuery("SELECT Username
 			FROM tblUser
 				WHERE Email = '" . $vParams["Email"] . "'"));
-		fDbg("count = " . count($vRows));
-		fDbg("data = " . print_r($vRows, true));
-		if (count($vRows) == 0)
-			$vRows = Sys_fFetchRows(Sys_fQuery("SELECT Username
-				FROM tblParent, tblUser
-					WHERE tblParent.ChildId = tblUser.Id
-					AND (tblParent.Email = '" . $vParams["Email"] . "'
-					OR tblUser.Email = '" . $vParams["Email"] . "')"));
+		
 		if (count($vRows) == 0)
 			return array("Success"=>0, "Err"=>"Email is not registered in our database.");
 		$vArr = array();

@@ -20,13 +20,15 @@ function(                 //  (boolean) true if consumed
   switch (vSignal)
   {
   case "Start2":
+  	var vStore = fGet("#eNav_Store");
+  	vStore.className = 'current-menu-item';
     return false;
     
   case "ResetPasswdRet":
     vData = vData.Data;
     if (! vData["Success"])
     {
-      cSys.fStartModal(vThis, "", cMsgBox.fCreate("Sorry, password reset is not successful.", ["OK"]));
+      cSys.fStartModal(vThis, "", cMsgBoxError.fCreate("Sign-In Problem",vData["Err"], ["OK"]));
       return false;
     }
     fNotify("Your password has been reset.  An email containing <br>your new password has been sent to you.");
@@ -36,17 +38,17 @@ function(                 //  (boolean) true if consumed
     vData = vData.Data;
     if (! vData["Success"])
     {
-      cSys.fStartModal(vThis, "", cMsgBox.fCreate(vData["Err"], ["OK"]));     
+      cSys.fStartModal(vThis, "", cMsgBoxError.fCreate("Sign-In Problem",vData["Err"], ["OK"]));     
       return false;
     }
     fNotify("Your User ID has been sent to <br>" + fGet("#eEmail").value);
     return false;
 
   	case "ResetPassword":
-      vUserId = fTrim(fGet("#eUserId").value);
+      vUserId = fTrim(fGet("#eUserId2").value);
       if (vUserId.length == 0)
       {
-        cSys.fStartModal(vThis, "", cMsgBox.fCreate("Sign-In Problem","Please provide a valid User ID.", ["OK"]));
+        cSys.fStartModal(vThis, "", cMsgBoxError.fCreate("Sign-In Problem","Please provide a valid User ID.", ["OK"]));
         return false;
       }
       cSys.fStartRequest(vThis, "ResetPasswdRet", "Account/Forgot.php", "ResetPasswd", 
@@ -57,7 +59,7 @@ function(                 //  (boolean) true if consumed
       vEmail = fTrim(fGet("#eEmail").value);
       if (vEmail.length == 0 || !fValidEmail(vEmail))
       {
-        cSys.fStartModal(vThis, "", cMsgBox.fCreate("Sign-In Problem","Please provide a valid Email.", ["OK"]));
+        cSys.fStartModal(vThis, "", cMsgBoxError.fCreate("Sign-In Problem","Please provide a valid Email.", ["OK"]));
         return false;
       }
       cSys.fStartRequest(vThis, "RetrieveUserIdRet", "Account/Forgot.php", "RetrieveUserId", 
