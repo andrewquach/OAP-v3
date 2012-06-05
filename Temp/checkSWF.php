@@ -3,7 +3,7 @@ $vConn = mysqli_connect("localhost", "root", "root", "oap3", 8889);
 if (mysqli_connect_errno() != 0)
 	throw new Exception("mysqli_connect() ");
 
-$fullPath = "/Users/mcops/oap/res/";
+$fullPath = "/Users/andrewquach/oap/res/";
 
 $vResult = mysqli_query($vConn, "Select Path,QtnId From tblQtn");
 

@@ -4,17 +4,17 @@ date_default_timezone_set("Asia/Singapore");  // http://www.php.net/manual/en/ti
 
 define("DB_HOST","localhost");
 define("DB_NAME","oap3");
-define("DB_PORT",3306);
+define("DB_PORT",8889);
 define("DB_USERNAME","root");
 define("DB_PASSWORD","root");
 
-define("LANDING_URL","http://www.mcenrich.com");
+define("LANDING_URL","http://www.oap.com");
 
-define("ERROR_LOG_PATH","/Users/mcops/oap/Temp/err.log");
+define("ERROR_LOG_PATH","/Users/andrewquach/oap/Temp/err.log");
 
-define("PAYPAL_URL","https://www.paypal.com/cgi-bin/webscr");
-define("PAYPAL_SUCCESS_URL","http://www.mcenrich.com/");
-define("PAYPAL_CANCEL_URL","http://www.mcenrich.com/");
-define("PAYPAL_EMAIL_ACCOUNT","cherwahtan@mconline.sg");
-define("PAYPAL_NOTIFICATION_URL","http://www.mcenrich.com/Buy/IPN_Paypal.php");
+define("PAYPAL_URL","https://www.sandbox.paypal.com/cgi-bin/webscr");
+define("PAYPAL_SUCCESS_URL","http://staging.mcenrich.com/oap3/");
+define("PAYPAL_CANCEL_URL","http://staging.mcenrich.com/oap3/");
+define("PAYPAL_EMAIL_ACCOUNT","seller_1308037741_biz@gmail.com");
+define("PAYPAL_NOTIFICATION_URL","http://staging.mcenrich.com/oap3/Store/IPN_Paypal.php");
 ?>
