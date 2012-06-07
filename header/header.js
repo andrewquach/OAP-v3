@@ -4,6 +4,8 @@
 var gToken = null;
 cPage.mThis = null;
 cPage.mLgInDlg = null;
+cPage.mHasBought = null;
+cPage.vRole = null;
 
 //----------------------------------------------------------------------------------------------------
 //  handle signal.
@@ -38,16 +40,25 @@ function(                 //  (boolean) true if consumed
       		fShow2('eNav_Summary',true);
       		fShow2('eNav_Assignment',false);
       		fShow2('eNav_Activation',false);
+      		fShow2('eNav_Content',false);
       	} 
       	else if (cSys.gCookies["Role"] == '2'){ 
       		fShow2('eNav_Summary',false);
       		fShow2('eNav_Assignment',true);
       		fShow2('eNav_Activation',false);
+      		fShow2('eNav_Content',false);
       	}
       	else if (cSys.gCookies["Role"] == '3'){ 
       		fShow2('eNav_Activation',true);
       		fShow2('eNav_Summary',true);
       		fShow2('eNav_Assignment',false);
+      		fShow2('eNav_Content',false);
+      	}
+      	else if (cSys.gCookies["Role"] == '4'){ 
+      		fShow2('eNav_Activation',false);
+      		fShow2('eNav_Summary',true);
+      		fShow2('eNav_Assignment',false);
+      		fShow2('eNav_Content',true);
       	}	
       }
       else
@@ -60,6 +71,7 @@ function(                 //  (boolean) true if consumed
       	fShow2('eNav_Summary',false);
       	fShow2('eNav_Assignment',false);
       	fShow2('eNav_Activation',false);
+      	fShow2('eNav_Content',false);
       }
       cSys.fDispatch(cPage.mThis, 'Start2', false);	
       return false;
@@ -75,7 +87,7 @@ function(                 //  (boolean) true if consumed
       cSys.fStartModal(cPage.mThis, 'SessionRet', cMsgBoxError.fCreate('Session','Your session is already expired! Please try to login again!', ['OK']));
       return false;
     
-    case 'SessionExpired':
+    case 'SessionInvalid':
       cSys.gCookies = {};	
       cSys.gAppVars = {};
       cSys.fStartModal(cPage.mThis, 'SessionRet', cMsgBoxError.fCreate('Session','Your session is invalid! Please try to login again!', ['OK']));
@@ -85,6 +97,30 @@ function(                 //  (boolean) true if consumed
   		cSys.fGoto("index.html");
   		return false;
   		
+  	case 'CheckCartRet':
+  	  if ((cSys.gAppVars['register'] == undefined || cSys.gAppVars['register'] == false) &&  (cSys.gAppVars['guestLogin'] == undefined || cSys.gAppVars['guestLogin'] == false) && (cSys.gCookies["IdChild"] == undefined))
+      {
+	      if (cPage.vRole == 1)
+	      	cSys.fGoto('my-summary.html');
+	      else if (cPage.vRole == 2)
+	      	cSys.fGoto('my-assignment.html');
+	      else if (cPage.vRole == 3)
+	      	cSys.fGoto('activation.html'); 
+	      else if (cPage.vRole == 4)
+	      	cSys.fGoto('content.html');
+	  }
+	  else
+	  {
+	  	cSys.gAppVars['register'] = false;
+	  	if (cSys.gAppVars['cart'] == undefined || cSys.gAppVars['cart'].length == 0) 
+			cSys.fGoto('store.html');
+		else
+			cSys.fGoto('store-checkout.html');
+	  
+	  }
+	  return false;
+  	
+  	
   	case 'LoginDone':
       if (vData.Error == "AlreadyLogin")
       {
@@ -94,9 +130,6 @@ function(                 //  (boolean) true if consumed
       }
       if (vData.Error != null)
       {
-        //cPage.mErrDlg = true;
-        //cSys.fStartModal(vThis, "Ignore", cMsgBox.fCreate(vData.Error, ["OK"]));
-        
         fGet("#signError").innerHTML = vData.Error;
         fShow2("signError",true);
         return false;
@@ -109,27 +142,33 @@ function(                 //  (boolean) true if consumed
       cSys.gAppVars["Password"] = vPassword2;
 
       // determine landing page
-      vData = vData.Data;
-      if ((cSys.gAppVars['register'] == undefined || cSys.gAppVars['register'] == false) &&  (cSys.gAppVars['guestLogin'] == undefined || cSys.gAppVars['guestLogin'] == false) && (cSys.gCookies["IdChild"] == undefined))
-      {
-	      //cSys.gAppVars['Role'] = vData.Role;
-	      vRole = vData.Role;
-	      if (vRole == 1)
-	      	cSys.fGoto('my-summary.html');
-	      else if (vRole == 2)
-	      	cSys.fGoto('my-assignment.html');
-	      else if (vRole == 3)
-	      	cSys.fGoto('activation.html');       
-	      return false;
-	  }
-	  else
-	  {
-	  	cSys.gAppVars['register'] = false;
-	  	if (cSys.gAppVars['cart'] == undefined || cSys.gAppVars['cart'].length == 0) 
-			cSys.fGoto('store.html');
-		else
-			cSys.fGoto('store-checkout.html');
+      cPage.mHasBought = vData.Data.itemsOwn;
+      cPage.vRole = vData.Data.Role;
 	  
+	  var n = fCheckCart();
+	  if (n>0)
+	  	cSys.fStartModal(cPage.mThis, 'CheckCartRet', cMsgBoxError.fCreate('Cart','We have removed '+n+' item(s) from your cart because you already possessed these!', ['OK']));
+	  else{
+	  	if ((cSys.gAppVars['register'] == undefined || cSys.gAppVars['register'] == false) &&  (cSys.gAppVars['guestLogin'] == undefined || cSys.gAppVars['guestLogin'] == false) && (cSys.gCookies["IdChild"] == undefined))
+      	{
+	      if (cPage.vRole == 1)
+	      	cSys.fGoto('my-summary.html');
+	      else if (cPage.vRole == 2)
+	      	cSys.fGoto('my-assignment.html');
+	      else if (cPage.vRole == 3)
+	      	cSys.fGoto('activation.html'); 
+	      else if (cPage.vRole == 4)
+	      	cSys.fGoto('content.html');
+	  	}
+	    else
+	  	{
+	  		cSys.gAppVars['register'] = false;
+	  		if (cSys.gAppVars['cart'] == undefined || cSys.gAppVars['cart'].length == 0) 
+				cSys.fGoto('store.html');
+			else
+				cSys.fGoto('store-checkout.html');
+	  
+	  	}
 	  }
   	  return false;
   	
@@ -259,6 +298,9 @@ function(                 //  (boolean) true if consumed
 		  cSys.fGoto("tc.html");
 		  return false;
 		case "eActivation":
+          cSys.fStartModal(vThis, '', cLgInBox.fCreate());
+          return false;
+        case "eContent":
           cSys.fStartModal(vThis, '', cLgInBox.fCreate());
           return false;
 		case "eMySummary":
@@ -441,6 +483,28 @@ function maskClick()
 */
 
 //----------------------------------------------------------------------------------------------------
+function fCheckCart(
+)
+{
+	var n = 0;
+	if (cSys.gAppVars['cart'] == undefined || cSys.gAppVars['cart'].length == 0)
+      	return 0;
+  	else{
+  		vCartItemIds = cSys.gAppVars['cart'];
+  		for (var i=0; i<vCartItemIds.length; i++)
+        {
+        	if (fHasBoughtItem(vCartItemIds[i])){
+        		n++;
+        		vCartItemIds.splice(i, 1);
+      			cSys.gAppVars['cart'] = vCartItemIds;
+      			fUpdateCart();
+            }
+        }
+        return n;
+  	}
+}
+
+//----------------------------------------------------------------------------------------------------
 function fLogin(
   vData
 )
@@ -469,4 +533,23 @@ function fUpdateCart(
     vCart.innerHTML = 'Cart (1 item)';
   else
   	vCart.innerHTML = 'Cart ('+cSys.gAppVars['cart'].length+' items)';
+}
+
+//----------------------------------------------------------------------------------------------------
+//  has user bought this item?
+//----------------------------------------------------------------------------------------------------
+function fHasBoughtItem(
+  vBookId
+)
+{
+	// quick hack
+	if (cSys.gAppVars['Role'] == "3")
+		return false;
+
+  var vBooks = cPage.mHasBought;
+
+  for (var i=0; i<vBooks.length; i++)
+    if (vBookId == vBooks[i].ItemId)
+      return true;
+  return false;
 }

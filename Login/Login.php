@@ -40,7 +40,10 @@ function Page_fDo(              //  (*) data to return in response
     $Sys_gCookies['IdUser'] = (int) $vData['Id'];
     $Sys_gCookies['Role'] = (int) $vData['Role'];
     $Sys_gCookies['oap_uname'] = $vData['Username'];
-
+	
+	
+	$vItemsOwn = Sys_fFetchRows(Sys_fQuery('SELECT DISTINCT ItemId FROM tblItemOwn WHERE UserId = '.$Sys_gCookies['IdUser'].' GROUP BY ItemId'));
+	
     // determines profile of user
     /*
     $vBooks = Sys_fFetchRows(Sys_fQuery('SELECT BookId
@@ -54,7 +57,7 @@ function Page_fDo(              //  (*) data to return in response
             AND UserId = ' . $vData['Id'] . '
               LIMIT 1'));
               */
-    return array('Role' => $vData['Role']);
+    return array('Role' => $vData['Role'],'itemsOwn' => $vItemsOwn);
   }
 
   return null;

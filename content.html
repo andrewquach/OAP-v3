@@ -1,0 +1,78 @@
+<?php include 'header.html'; ?>
+<script type="text/javascript" language="javascript" src="content/register.js"></script>
+
+<!-- middle body -->
+<div class="middle">
+<div class="container_12">
+<div class="wrapper2">
+
+<!-- Breadcrumbs -->  
+<ul class="breadcrumbs">
+<li><a id="eStore3">Manage Content</a></li>
+<li>Content Registration</li>
+</ul>
+<!-- Breadcrumbs -->
+<div class="ht30 clearfix"></div>
+<!--Start Register Box-->
+<form id="eForm">
+<h3 class="groupHeader box">Content Registration Form</h3>
+<div class="registration border">
+<!--<label></label><input name="title" type="radio" value="Dr">Dr<input name="title" type="radio" value="Mr">Mr<input name="title" type="radio" value="Mrs">Mrs<input name="title" type="radio" value="Ms">Ms-->
+<div class="ht10"></div>
+<label><span>*</span>Content ID</label><input id="eContentId" type="text"/>
+<div class="ht10"></div>
+<label><span>*</span>Publisher</label><input id="ePublisher" type="text"/>
+<div class="ht10"></div>
+<label><span>*</span>Author</label><input id="eAuthor" type="text"/>
+<div class="ht10"></div>
+<label><span>*</span>Level</label>
+<select id="eLevel" class="input">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+</select>
+<div class="ht10"></div>
+<label><span>*</span>Subject</label>
+<select id="eSubject" class="input">
+<option value="1">Mathematics</option>
+<option value="2">Science</option>
+<option value="3">English</option>
+<option value="4">Chinese</option>
+</select>
+<div class="ht10"></div>
+<label><span>*</span>Type of Content</label>
+<select id="eType" class="input">
+<option value="1">Book</option>
+<option value="2">TestBank</option>
+<option value="3">Courseware</option>
+</select>
+<div class="ht10"></div>
+<label>&nbsp;</label><span>*</span><b>indicates required field</b>
+<div id="eOops" class="errorMsg"><span><div id="eErr"></div></span></div>
+<div class="ht10"></div>
+</div>
+<div class="ht10"></div>
+<div class="ifyou"><a id="eCreateAccount" class="button_sml"><span>Register Content</span></a></div>
+<div class="clear"></div>
+</form>
+<!--End Register Box-->
+
+<!--div id="eOops" class="register-error" align="center" style="display:none">
+		<table class="note" align="center">
+          <tr>
+            <td align="center"><img src="images/exclaim.jpg"/></td>
+            <td>&nbsp;&nbsp;</td>
+            <td id="eErr" align="center"></td>
+          </tr>
+	    </table>
+   	</div-->
+
+</div>
+	
+</div>
+</div>
+<!--/ middle body -->
+<?php include 'footer.html'; ?>
